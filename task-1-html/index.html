@@ -5,5 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task 1 - HTML FORM</title>
   </head>
-  <body></body>
+  <body>
+    <main class="container">
+      <h1>TASK 1 - HTML FORM</h1>
+      <form id="myForm" action="/submit" method="POST">
+        //Name Field
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Enter Your Name" />
+
+        <br /><br />
+
+        //Email Field
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter Your Email" />
+
+        <br /><br />
+        //Password Field
+        <label for="password">Password:</label>
+        <input type="password" placeholder="Enter Your Password" />
+        <br /><br />
+
+        //Gender - Radio Field
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" value="Male" />
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" value="Female" />
+        <label for="gender">Female</label>
+
+        <br /><br />
+
+        //Sports Field
+        <label for="hobbies">Favorite Sports:</label>
+        <input type="checkbox" name="hobbies1" value="Cricket" />
+        <label for="hobbies">Cricket</label>
+        <input type="checkbox" name="hobbies2" value="Football" />
+        <label for="hobbies">Football</label>
+        <input type="checkbox" name="hobbies3" value="Hockey" />
+        <label for="hobbies">Hockey</label>
+
+        <br /><br />
+
+        //Country Dropdown Field
+        <label for="country">Select Country:</label>
+        <select name="country" id="country">
+          <option value="">Select Country</option>
+          <option value="india">India</option>
+          <option value="USA">USA</option>
+          <option value="UK">UK</option>
+          <option value="Canada">Canada</option>
+          <option value="Australia">Australia</option>
+          <option value="Japan">Japan</option>
+          <option value="other">Other</option>
+        </select>
+
+        <br /><br />
+
+        //Message Field
+        <label for="message">Message:</label>
+        <textarea
+          placeholder="Enter Your Message"
+          rows="5"
+          cols="30"
+        ></textarea>
+
+        <br /><br />
+
+        //Submit Button
+        <button type="submit" value="Submit" onclick="alert('Form Submitted')">
+          Submit Form
+        </button>
+      </form>
+    </main>
+  </body>
 </html>
