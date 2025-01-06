@@ -9,23 +9,24 @@
     <main class="container">
       <h1>TASK 1 - HTML FORM</h1>
       <form id="myForm" action="/submit" method="POST">
-        //Name Field
+        <!-- Name Field -->
         <label for="name">Name:</label>
         <input type="text" placeholder="Enter Your Name" />
 
         <br /><br />
 
-        //Email Field
+        <!-- Email Field -->
         <label for="email">Email:</label>
         <input type="email" placeholder="Enter Your Email" />
 
         <br /><br />
-        //Password Field
+
+        <!-- Password Field -->
         <label for="password">Password:</label>
         <input type="password" placeholder="Enter Your Password" />
         <br /><br />
 
-        //Gender - Radio Field
+        <!-- Gender - Radio Field -->
         <label for="gender">Gender:</label>
         <input type="radio" name="gender" value="Male" />
         <label for="gender">Male</label>
@@ -34,7 +35,7 @@
 
         <br /><br />
 
-        //Sports Field
+        <!-- Sports Field -->
         <label for="hobbies">Favorite Sports:</label>
         <input type="checkbox" name="hobbies1" value="Cricket" />
         <label for="hobbies">Cricket</label>
@@ -45,7 +46,7 @@
 
         <br /><br />
 
-        //Country Dropdown Field
+        <!-- Country Dropdown Field -->
         <label for="country">Select Country:</label>
         <select name="country" id="country">
           <option value="">Select Country</option>
@@ -60,7 +61,7 @@
 
         <br /><br />
 
-        //Message Field
+        <!-- Message Field -->
         <label for="message">Message:</label>
         <textarea
           placeholder="Enter Your Message"
@@ -70,7 +71,13 @@
 
         <br /><br />
 
-        //Submit Button
+        <label for="video">Video:</label>
+        <video controls width="300px">
+          <source src="assets/video/mov_bbb.mp4" />
+        </video>
+        <br /><br />
+
+        <!-- Submit Button -->
         <button type="submit" value="Submit" onclick="alert('Form Submitted')">
           Submit Form
         </button>
