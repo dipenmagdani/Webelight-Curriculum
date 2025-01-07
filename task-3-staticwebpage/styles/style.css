@@ -61,8 +61,8 @@ body {
   color: #ffffff;
   border-radius: 2.78px;
   cursor: pointer;
-  font-size: 11.14px;
-  font-weight: 500;
+  font-size: 12.14px;
+  font-weight: 600;
 }
 .navbar .nav ul .btn-register button:hover {
   background-color: #429644;
@@ -207,4 +207,89 @@ info .hero .hero-content button:hover {
   text-align: center;
   font-size: 9.74px;
   font-weight: 300;
+}
+
+.pixelgrade {
+  width: 100%;
+  height: 301.4px;
+  padding: 40px 100px 20px 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.pixelgrade .pixelgrade-content {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+.pixelgrade img {
+  width: 307px;
+  height: 289px;
+}
+.pixelgrade h1 {
+  width: 418.34px;
+  height: 62px;
+  font-size: 25.06px;
+  font-weight: 600;
+  color: #4d4d4d;
+}
+.pixelgrade p {
+  width: 470.34px;
+  color: #717171;
+  font-size: 9.74px;
+  line-height: 1.5em;
+  font: 400;
+}
+.pixelgrade button {
+  width: 105.55px;
+  height: 36.49px;
+  background-color: #4caf4f;
+  border: none;
+  color: #ffffff;
+  border-radius: 2.78px;
+  cursor: pointer;
+}
+
+.pixelgrade button:hover {
+  background-color: #429644;
+}
+
+.achievements {
+  width: 100%;
+  height: 202.94px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 44.55px 100.23px;
+  background-color: #f5f7fa;
+}
+.achievements .content {
+  width: 375.88px;
+  height: 84.57px;
+}
+.achievements .head1 {
+  color: #4d4d4d;
+  font-size: 26.06px;
+  font-weight: 600;
+}
+.achievements .head2 {
+  color: #4caf4f;
+  font-size: 26.06px;
+  font-weight: 600;
+}
+
+.achievements p {
+  color: #18191f;
+  font-size: 11.14px;
+  font-weight: 400;
+}
+.achievements .numbers {
+  display: flex;
+  align-items: center;
+}
+
+.achievements .numbers .card-row-1 {
+  display: flex;
+  flex-direction: column;
+  width: 375.88px;
 }
