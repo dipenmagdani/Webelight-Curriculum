@@ -101,6 +101,8 @@ html {
   color: #4d4d4d;
   font-weight: 300;
   padding-bottom: 22.27px;
+  max-width: 400px;
+  text-wrap: wrap;
 }
 .hero .hero-content button {
   max-width: 89.55px;
@@ -264,7 +266,7 @@ html {
 
 .footer {
   max-width: 100%;
-  max-height: 100%;
+  max-height: 229px;
   background-color: #263238;
   display: flex;
   justify-content: space-evenly;
@@ -311,12 +313,14 @@ html {
   display: flex;
   gap: 60px;
   max-width: 442px;
+  margin-left: 30px;
 }
 .footer .right-section .company,
 .footer .right-section .support {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  width: 200px;
 }
 
 .footer .right-section .company h1,
@@ -405,6 +409,7 @@ html {
   .hero .hero-content p {
     font-size: 15px;
     margin-top: 20px;
+    width: 100%;
   }
   .hero .hero-content button {
     width: 100px;
@@ -497,7 +502,7 @@ html {
   .pixelgrade .pixelgrade-content p {
     text-align: center;
     font-size: 14px;
-    width: 300px;
+    width: 100%;
   }
   .pixelgrade img {
     display: none;
@@ -511,13 +516,13 @@ html {
     padding: 0px;
     align-items: center;
     justify-content: center;
-    padding-bottom: 10px;
+    height: 100%;
   }
   .footer .left-section {
     align-items: center;
     justify-content: center;
     gap: 4px;
-    margin-bottom: 20px;
+    padding: 10px 0px;
   }
   .footer .left-section .copyright {
     align-items: center;
@@ -530,7 +535,9 @@ html {
   .footer .left-section .socials a {
     font-size: 14px;
   }
-
+  .footer .right-section {
+    display: none;
+  }
   .footer .right-section .uptodate {
     display: none;
   }
