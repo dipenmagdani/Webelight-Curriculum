@@ -244,7 +244,7 @@ html {
   color: #4d4d4d;
 }
 .pixelgrade p {
-  max-width: 470.34px;
+  max-width: 800px;
   color: #717171;
   font-size: 14.74px;
   line-height: 1.5em;
@@ -481,13 +481,12 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 450px;
+    height: 650px;
     width: 100%;
   }
 
   .pixelgrade .pixelgrade-content {
     width: 100vw;
-    height: 550px;
     align-items: center;
     justify-content: center;
     padding: 10px;
@@ -497,15 +496,17 @@ html {
   .pixelgrade .pixelgrade-content h1 {
     text-align: center;
     font-size: 30px;
-    width: 320px;
+    width: 100%;
   }
   .pixelgrade .pixelgrade-content p {
     text-align: center;
     font-size: 14px;
     width: 100%;
+    padding: 0px 18px;
   }
   .pixelgrade img {
-    display: none;
+    width: 240px;
+    height: 240px;
   }
   .pixelgrade .pixelgrade-content button {
     width: 100px;
