@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  height: auto;
+  background-color: #1d1616;
+  display: flex;
+  justify-content: center;
+}
+.main-content {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  border: 1px solid yellow;
+  width: 700px;
+  padding: 100px;
+  gap: 40px;
+}
+.header h1 {
+  font-size: 40px;
+  color: #d84040;
+  font-weight: 500;
+  text-align: center;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.input input[type="text"] {
+  background-color: #eeeeee;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 400px;
+}
+
+.input button {
+  width: 250px;
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+  text-align: center;
+  font-size: 19px;
+  color: #eeeeee;
+  background-color: #8e1616;
+  cursor: pointer;
+}
+
+.input button:hover {
+  background-color: #1d1616;
+  border: 1px solid #8e1616a1;
+  transform: all 1s linear;
+}
+
+.todo-list .list {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+.list .task {
+  display: flex;
+  border: 1px solid #eeeeee;
+  border-radius: 20px;
+  width: 600px;
+  height: 60px;
+  align-items: center;
+  font-size: 27px;
+  color: #eeeeee;
+  background-color: #1d1616;
+  padding: 20px;
+  gap: 20px;
+}
+
+.list .task i {
+  cursor: pointer;
+}
+.list .manipulate i {
+  padding: 7px;
+  cursor: pointer;
+}
