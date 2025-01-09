@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/204d9694fe.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="data">
+                <section class="displayData">
+                    <span class="userInput"></span>
+                    <span class="result"></span>
+                </section>
+                <section class="buttons">
+                    <button id="theme"><i class="fa-regular fa-lightbulb"></i></i></button>
+                    <!-- <button id="theme"><i class="fa-solid fa-moon"></i></button> -->
+                    <button id="percentage" onclick="getValue('%')"><i class="fa-solid fa-percent"></i></button>
+                    <button id="division" onclick="getValue('/')"><i class="fa-solid fa-divide"></i></button>
+                    <button id="multiplication" onclick="getValue('*')"><i class="fa-solid fa-xmark"></i></button>
+                    <button id="seven" onclick="getValue('7')">7</button>
+                    <button id="eight" onclick="getValue('8')">8</button>
+                    <button id="nine" onclick="getValue('9')">9</button>
+                    <button id="subtraction" onclick="getValue('-')"><i class="fa-solid fa-minus"></i></button>
+                    <button id="four" onclick="getValue('4')">4</button>
+                    <button id="five" onclick="getValue('5')">5</button>
+                    <button id="six" onclick="getValue('6')">6</button>
+                    <button id="addition" onclick="getValue('+')"><i class="fa-solid fa-plus"></i></button>
+                    <button id="one" onclick="getValue('1')">1</button>
+                    <button id="two" onclick="getValue('2')">2</button>
+                    <button id="three" onclick="getValue('3')">3</button>
+                    <button id="equal" onclick="calculate()"><i class="fa-solid fa-equals"></i></button>
+                    <button id="clear" onclick="clearData()">AC</button>
+                    <button id="zero" onclick="getValue('0')">0</button>
+                    <button id="dot" onclick="getValue('.')">.</button>
+                </section>
+            </div>
+            <div class="history">
+                ddd
+            </div>
+        </div>
+
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
