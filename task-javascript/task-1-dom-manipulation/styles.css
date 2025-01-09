@@ -43,4 +43,5 @@
 .container .main-count button:hover {
   background-color: transparent;
   border: 1px solid #f5ecd5;
+  transition: all 0.3s ease-in-out;
 }
