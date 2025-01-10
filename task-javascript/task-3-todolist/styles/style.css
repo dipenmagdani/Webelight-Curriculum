@@ -2,14 +2,20 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Kanit", sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 .container {
   max-width: 1024px;
   margin: 0 auto;
   height: auto;
-  background-color: #1d1616;
+  background: rgb(3, 34, 30);
+  background: linear-gradient(
+    90deg,
+    rgba(3, 34, 30, 1) 0%,
+    rgba(3, 37, 45, 1) 35%,
+    rgba(64, 88, 99, 1) 100%
+  );
   display: flex;
   justify-content: center;
 }
@@ -18,77 +24,176 @@
   align-items: center;
   height: 100vh;
   flex-direction: column;
-  border: 1px solid yellow;
-  width: 700px;
-  padding: 100px;
+  max-width: 1300px;
+  padding-top: 80px;
   gap: 40px;
 }
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  max-width: 1000px;
+}
 .header h1 {
-  font-size: 40px;
-  color: #d84040;
+  font-size: 72px;
+  color: rgb(229 231 235);
   font-weight: 500;
   text-align: center;
+  max-width: 700px;
+  font-weight: 800;
 }
 .input {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 16px;
 }
 .input input[type="text"] {
-  background-color: #eeeeee;
+  background-color: black;
+  color: #ffffff;
+  width: 384px;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  padding: 13px;
   border: none;
-  border-radius: 10px;
-  padding: 10px;
-  width: 400px;
 }
-
+.input input[type="text"]::placeholder {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  color: #eeeeee5e;
+}
 .input button {
-  width: 250px;
-  height: 40px;
-  border-radius: 15px;
+  background-color: white;
+  color: black;
+  padding: 11.3px;
+  width: 100px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 16px;
   border: none;
-  text-align: center;
-  font-size: 19px;
-  color: #eeeeee;
-  background-color: #8e1616;
+  font-size: 15px;
+  font-weight: 400;
   cursor: pointer;
 }
-
 .input button:hover {
-  background-color: #1d1616;
-  border: 1px solid #8e1616a1;
-  transform: all 1s linear;
+  background-color: #eeeeeed2;
+  transition: all 0.2s ease-in-out;
 }
-
+.todo-list {
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  border: 1px solid rgb(63 63 70);
+  margin: 20px 0px;
+  overflow-y: auto;
+  border-radius: 12px;
+  background-color: rgba(39, 39, 42, 0.37);
+  padding: 8px;
+  max-width: 100%;
+  overflow-y: auto;
+}
 .todo-list .list {
   list-style: none;
   display: flex;
-  align-items: flex-start;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   width: 100%;
-  gap: 20px;
 }
-.list .task {
+.list .empty-list {
   display: flex;
-  border: 1px solid #eeeeee;
-  border-radius: 20px;
-  width: 600px;
-  height: 60px;
+  justify-content: center;
   align-items: center;
-  font-size: 27px;
-  color: #eeeeee;
-  background-color: #1d1616;
-  padding: 20px;
-  gap: 20px;
+  width: 100%;
+  height: 56px;
+  margin-top: 24px;
+  background-color: rgba(0, 0, 0, 0.329);
 }
 
-.list .task i {
+.empty-list span {
+  color: rgb(245 245 244);
+  font-size: 20px;
+}
+.list .task {
+  margin-top: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  width: 100%;
+  max-height: 120px;
+  font-size: 20px;
+  color: rgb(245 245 244);
+  background: rgba(0, 0, 0, 0.438);
+  gap: 20px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.4),
+    0 2px 4px -2px rgba(0, 0, 0, 0.4);
+}
+
+.task .task-info {
+  display: flex;
+  gap: 14px;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+.task-info .text {
+  width: 500px;
+  height: 100px;
+  overflow-y: auto;
+  display: flex;
+  align-items: center;
+}
+
+.task-info span {
+  font-size: 18px;
+  padding: 14px;
+  word-wrap: break-word;
+  line-height: 1.5;
+  text-align: left;
+  position: relative;
+  bottom: 2px;
+}
+.task i {
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.task i.fa-circle:hover {
+  color: rgba(159, 219, 159, 0.5);
+  font-size: 30px;
+  transition: all 0.3s ease-in-out;
+  /* transform: translate(0px, 5px); */
+}
+
+.task .manipulate i:hover {
+  border-radius: 30px;
+  color: rgb(78, 130, 207);
+  font-size: 30px;
+  transition: all 0.3s ease-in-out;
 }
 .list .manipulate i {
   padding: 7px;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .container {
+    align-items: center;
+  }
+  .todo-list {
+    width: 400px;
+  }
+
+  .main-content {
+    align-items: center;
+    width: 400px;
+  }
+  .header {
+    width: 400px;
+  }
+  .header h1 {
+    font-size: 28px;
+  }
 }
