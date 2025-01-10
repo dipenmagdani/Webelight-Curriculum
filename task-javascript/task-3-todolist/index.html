@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/204d9694fe.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main-content">
+            <div class="header">
+                <h1>Add a New Todo!</h1>
+                <div class="input">
+                    <input type="text" id="taskInput" placeholder="Add a Task">
+                    <button id="addTaskBtn" onclick="addTask()">Add Task</button>
+                </div>
+            </div>
+            <div class="todo-list">
+                <ul class="list">
+                    <!-- <li class="task">
+                        <div class="task-info">
+                            <i class="fa-regular fa-circle"></i>
+                            <div class="text">
+                                <span>Task 1</span>
+                            </div>
+                        </div>
+                        <div class="manipulate">
+                            <i class="fa-solid fa-pen-to-square"></i>
+                            <i class="fa-solid fa-trash"></i>
+                        </div>
+                    </li> -->
+                    <li class="empty-list">
+                        <span>Your List is empty. Add a task now!</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="scripts/script.js"></script>
+</body>
+
+
+</html>
