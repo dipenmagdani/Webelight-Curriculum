@@ -7,20 +7,18 @@
     <title>Banker's Heart</title>
     <link rel="icon" href="assets/logo/logo.svg" type="image/x-icon" />
     <link rel="stylesheet" href="output.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+    <!-- Nav and Hero Section -->
     <div class="container flex flex-col justify-center items-center gap-[36px] w-full h-[895px]">
         <header
-            class="flex w-full h-[100px] p-[20px] justify-center z-10 shadow-md shadow-[#0C0C0D0D] rounded-br-[10px] rounded-bl-[10px]">
+            class="flex w-full h-[100px] p-[20px] justify-center z-10 shadow-md shadow-[#0C0C0D0D] rounded-br-[10px] rounded-bl-[10px] font-poppins">
             <nav
                 class="nav-left flex items-center gap-[24px] p-[10px] text-[16px] justify-center font-normal w-[628px] h-[60px] leading-[30px] text-[#1F2A37]">
                 <a href="#">Specialties</a>
@@ -50,17 +48,19 @@
                             <div class="heading-content w-[502px] h-[311px] flex flex-col gap-[17px]">
                                 <div
                                     class="medical-service w-[269px] h-[36px] rounded-[44px] border-[1px] border-[#00000005] py-6px px-16px flex justify-center items-center gap-[10px] bg-[#FFFFFFB2]">
-                                    <span class="text-[#111928] font-medium text-[14px]">Best Medical Services in 1
+                                    <span class="text-[#111928] font-medium font-roboto text-[16px]">Best Medical
+                                        Services in 1
                                         Place</span>
                                 </div>
                                 <div class="title h-[258px]">
-                                    <h1 class="text-[#111928] text-[74px] font-bold leading-[86px]">
+                                    <h1 class="text-[#111928] text-[74px] font-bold leading-[86px] font-sora">
                                         Dedicated Human Touch
                                     </h1>
                                 </div>
                             </div>
                             <div class="text max-w-[440px] h-[84px]">
-                                <p class="text-[16px] text-[#4B5563] font-normal leading-[28px]">Lorem ipsum dolor sit
+                                <p class="text-[16px] text-[#4B5563] font-normal leading-[28px] font-poppins">Lorem
+                                    ipsum dolor sit
                                     amet,
                                     consectetur adipiscing
                                     elit. Sit urna, tortor pulvinar dolor rhoncus.Tristique sit
@@ -68,7 +68,7 @@
                             </div>
                         </div>
                         <button
-                            class="btn-appointment w-[234px] h-[60px] rounded-[10px] py-20px px-22px bg-[#CD0001] text-white font-semibold text-[16px] leading-[19px]hover:bg-red-500">
+                            class="btn-appointment w-[234px] h-[60px] rounded-[10px] py-[20px] px-[22px] bg-[#CD0001] text-white font-semibold text-[16px] leading-[19px]hover:bg-red-500 font-poppins">
                             BOOK AN APPOINTMENT
                         </button>
                     </div>
@@ -84,10 +84,11 @@
                         <div class="w-[259px] h-[86px] flex justify-center items-center" style="gap: 16px">
                             <img src="assets/hero/phone.svg" alt="emergency_care">
                             <div class="flex flex-col w-[157px] h-[53px] gap-[8px] items-start">
-                                <span class="text-[#1F2A37] text-[18px] font-semibold leading-[25px]">Emergency
+                                <span
+                                    class="text-[#1F2A37] text-[18px] font-semibold leading-[25px] font-sora">Emergency
                                     Care</span>
                                 <div class="flex gap-[10px] justify-start items-start">
-                                    <span class="text-[#4B5563] font-medium text-[16px]">CALL NOW</span>
+                                    <span class="text-[#4B5563] font-medium text-[16px] font-poppins">CALL NOW</span>
                                     <span
                                         class="w-[8.4px] h-[19.2px] text-[#4B5563] font-black text-[16px]">&#11208;</span>
                                 </div>
@@ -95,16 +96,15 @@
                         </div>
                     </div>
                     <div
-                        class="health_checkup w-[291px] h-[78px] rounded-[20px] border-[1px] border-[#FFFFFF4D] text-[#FFFFFFB2] p-[16px] flex items-center gap-[10px] bg-[#FFFFFFB2] backdrop-blur-2xl shadow-md shadow-[#0C0C0D0D] ">
+                        class="health_checkup w-[291px] h-[118px] rounded-[20px] border-[1px] border-[#FFFFFF4D] text-[#FFFFFFB2] p-[16px] flex items-center gap-[10px] bg-[#FFFFFFB2] backdrop-blur-2xl shadow-md shadow-[#0C0C0D0D]">
                         <div class="flex w-[259px] h-[86px] items-center" style="gap: 16px">
                             <img src="assets/hero/clipboard.svg" alt="emergency_care" class="w-[86px] h-[86px]">
                             <div class="flex flex-col w-[157px] h-[78px] gap-[8px] items-start">
                                 <span
-                                    class="text-[#1F2A37] text-[18px] font-semibold leading-[25px] w-[157px] h-[50px]">Health
-                                    <br>
+                                    class="text-[#1F2A37] text-[18px] font-semibold leading-[25px] w-[157px] h-[50px] font-sora">Health
                                     Checkups</span>
                                 <div class="flex gap-[10px] justify-start items-start">
-                                    <span class="text-[#4B5563] font-medium text-[16px]">CONNECT NOW</span>
+                                    <span class="text-[#4B5563] font-medium text-[16px] font-poppins">CONNECT NOW</span>
                                     <span
                                         class="w-[8.4px] h-[19.2px] text-[#4B5563] font-black text-[16px]">&#11208;</span>
                                 </div>
@@ -112,18 +112,19 @@
                         </div>
                     </div>
                     <div
-                        class="online_consultation w-[291px] h-[78px] rounded-[20px] border-[1px] border-[#FFFFFF4D] text-[#FFFFFFB2] p-[16px] flex items-center gap-[10px] bg-[#FFFFFFB2] backdrop-blur-xl shadow-md shadow-[#0C0C0D0D]">
+                        class="online_consultation w-[291px] h-[118px] rounded-[20px] border-[1px] border-[#FFFFFF4D] text-[#FFFFFFB2] p-[16px] flex items-center gap-[10px] bg-[#FFFFFFB2] backdrop-blur-xl shadow-md shadow-[#0C0C0D0D]">
                         <div class="flex w-[259px] h-[86px] items-center" style="gap: 16px">
                             <img src="assets/hero/user.svg" alt="emergency_care" class="w-[86px] h-[86px]">
                             <div class="flex flex-col w-[157px] h-[78px] gap-[8px] items-start">
                                 <span
-                                    class="text-[#1F2A37] text-[18px] font-semibold leading-[25px] w-[157px] h-[50px] ">Online
+                                    class="text-[#1F2A37] text-[18px] font-semibold leading-[25px] w-[157px] h-[50px] font-sora">Online
                                     Consultation</span>
-                                <div class="flex gap-[10px] w-[152px] items-center">
-                                    <span class="text-[#4B5563] font-medium text-[14px] leading-[19px]">CONSULT
+                                <div class="flex gap-[10px] w-[152px] items-center justify-center">
+                                    <span
+                                        class="text-[#4B5563] font-medium text-[16px] leading-[19px] font-poppins">CONSULT
                                         ONLINE</span>
                                     <span
-                                        class="w-[8.4px] h-[19.2px] text-[#4B5563] font-black text-[16px]">&#11208;</span>
+                                        class="w-[8.4px] h-[19.2px] text-[#4B5563] font-black text-[16px] text-center">&#11208;</span>
                                 </div>
                             </div>
                         </div>
@@ -141,6 +142,89 @@
             </div>
         </div>
 
+    </div>
+
+    <!-- Patient Testimonials -->
+    <section class="container h-[820px] py-[64px] px-[80px] flex flex-col gap-[46px]">
+        <div class="font-sora max-w-[1280px] mt-[80px]">
+            <span class="font-bold text-[48px] leading-[77px] text-[#111928]">Patient
+                Testimonials</span>
+        </div>
+        <section class="max-w-[1280px] h-[455px] flex items-center gap-[74px]">
+            <div
+                class="w-[618px] h-[450px] rounded-[30px] border-[1px] border-[#CCCCCC66] p-[10px] flex gap-[10px] bg-[#FFFFFF80] backdrop-blur-[52.3px] justify-center items-center relative">
+                <img src="assets/testimonial/video.png" alt="Video Testimonial"
+                    class="w-[598px] h-[430px] rounded-[24px]">
+                <div
+                    class="video_icon absolute w-[102px] h-[102px] rounded-[100px] border-1px border-[#FFFFFF4D] p-[16px] flex bg-[#FFDDDD66] backdrop-blur-[14.8px] shadow-md shadow-[#0C0C0D0D]flex items-center justify-center">
+                    <img src="assets/testimonial/play_icon.png" alt="play icon" class="w-[56px] h-[56px]">
+                </div>
+
+            </div>
+
+            <div class="w-[588px] h-[455px] flex flex-col gap-[24px]">
+                <img src="assets/testimonial/stroke.png" alt="Stroke" class="w-[88px] h-[83px]">
+                <p class="w-[588px] h-[270px] font-poppins font-medium text-[24px] leading-[45px] text-[#1F2A37]">
+                    "I can't express how grateful I am to the entire team at Bankers Hospital. When my husband, John,
+                    started experiencing severe chest pain, we rushed him to the hospital. From the moment we arrived,
+                    the care and attention were extraordinary.”
+                </p>
+                <div class="w-[588px] h-[54px] flex flex-col  gap-[4px]">
+                    <span class="font-sora font-semibold text-[24px] leading-[30px] text-[#1F2A37]">Peter John</span>
+                    <span class="font-poppins text-[#1F2A37] font-normal text-[14px] leading-[20px]">Cardiology
+                        Patient</span>
+                </div>
+            </div>
+        </section>
+        <div class="slider-buttons flex justify-between">
+            <div class="slider_button w-[70px] h-[16px] flex items-center justify-center gap-[6px]">
+                <div class="w-[16px] h-[16px] rounded-full bg-[#900C0D]">
+                </div>
+                <div class="w-[12px] h-[12px] rounded-full bg-[#DDD1C5]">
+                </div>
+                <div class="w-[12px] h-[12px] rounded-full bg-[#DDD1C5]">
+                </div>
+                <div class="w-[12px] h-[12px] rounded-full bg-[#DDD1C5]">
+                </div>
+            </div>
+            <div class="w-[284px] h-[68px] flex items-center gap-[24px]">
+                <div
+                    class="w-[130px] h-[68px] rounded-[150px] border-[2px] border-[#D1D5DB] py-[16px] px-[47px] flex items-center justify-center gap-[10px] cursor-pointer hover:border-[#e44848] transition-all ease-in-out 1s">
+                    <img src="assets/testimonial/arrow.svg" alt="Arrow left">
+                </div>
+                <div
+                    class="w-[130px] h-[68px] rounded-[150px] border-[2px] border-[#D1D5DB] py-[16px] px-[47px] flex items-center justify-center gap-[10px] cursor-pointer hover:border-[#e44848] transition-all ease-in-out 1s">
+                    <img src="assets/testimonial/arrow.svg" alt="Arrow left" class="rotate-180 ">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Expert Care -->
+
+    <div class="bg-custom-gradient w-full h-[593px]">
+        <section class="container  py-[64px] px-[80px] flex items-center gap-[73px] ">
+            <div class="w-[503px] h-[356px] flex flex-col gap-[36px]">
+                <div class="h-[260px] flex flex-col gap-[22px]">
+                    <h1 class="text-[#111928] font-sora font-bold text-[48px] leading-[77px]">Get Expert Care From Home
+                    </h1>
+                    <p class="font-poppins font-normal text-[#4B5563] text-[16px] leading-[28px] w-[430px] h-[84px]">
+                        Lorem ipsum
+                        dolor sit
+                        amet,
+                        consectetur
+                        adipiscing
+                        elit. Sit urna, tortor pulvinar dolor rhoncus.Tristique sit
+                        eros consectetur adipiscing elit..</p>
+                    <button
+                        class="btn-appointment w-[163px] h-[60px] rounded-[10px] py-[20px] px-[22px] bg-[#CD0001] text-white font-semibold text-[16px] leading-[19px]hover:bg-red-500 font-poppins hover:bg-[#cd0000ab] transition-colors ease-in-out 0.3s">
+                        CONSULT NOW
+                    </button>
+                </div>
+            </div>
+            <img src="assets/Expert Care/expert.png" alt="Expert Care">
+        </section>
     </div>
 </body>
 
