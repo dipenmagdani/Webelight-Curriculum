@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.center-slider {
+  background: linear-gradient(283.4deg, #ffe7cb 1.36%, #fff9f2 98.8%);
+}
+
+.ellipse {
+  background: linear-gradient(
+    221.87deg,
+    rgba(255, 231, 203, 0.1) 4.21%,
+    #ffe7cb 85.88%
+  );
+}
+/* Ellipse 2 */
