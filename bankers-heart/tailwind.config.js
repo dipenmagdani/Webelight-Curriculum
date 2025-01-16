@@ -7,6 +7,7 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
         sora: ["Sora", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
       colors: {
         peach: "#FFDDB8",
