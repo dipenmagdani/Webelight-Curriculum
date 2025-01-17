@@ -8,10 +8,15 @@ module.exports = {
         sora: ["Sora", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
         inter: ["Inter", "sans-serif"],
+        dmsans: ["DM sans", "sans-serif"],
       },
       colors: {
         peach: "#FFDDB8",
         ivory: "#FFF4E8",
+        header: "#111928",
+        para: "#4B5563",
+        button: "#CD0001",
+        header2: "#1F2A37",
       },
       backgroundImage: {
         "custom-gradient":
