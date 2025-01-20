@@ -10,7 +10,7 @@
 
 .container {
   max-width: 1440px;
-  height: auto;
+  /* height: auto; */
   margin: 0 auto;
 }
 
