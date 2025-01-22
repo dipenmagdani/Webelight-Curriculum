@@ -22,6 +22,17 @@ module.exports = {
         "custom-gradient":
           "linear-gradient(270.06deg, #FFDDB8 0.8%, #FFF4E8 97.64%)",
       },
+      gridTemplateColumns: {
+        xl: ["412px 1px 294px 1px 412px"],
+        lg: ["412px 1px 294px 1px"],
+        md: ["390px 1px 294px"],
+        sm: ["330px 274px"],
+      },
+      gridTemplateRows: {
+        lg: ["463px 204px"],
+        md: ["463px 463px"],
+        sm: ["390px 330px"],
+      },
     },
   },
   plugins: [],
