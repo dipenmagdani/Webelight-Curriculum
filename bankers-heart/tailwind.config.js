@@ -27,11 +27,13 @@ module.exports = {
         lg: ["412px 1px 294px 1px"],
         md: ["390px 1px 294px"],
         sm: ["330px 274px"],
+        mobileDevice: ["360px"],
       },
       gridTemplateRows: {
         lg: ["463px 204px"],
         md: ["463px 463px"],
         sm: ["390px 330px"],
+        mobileDevice: ["390px 330px 250px"],
       },
     },
   },

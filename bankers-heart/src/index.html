@@ -16,54 +16,68 @@
 
 <body>
     <!-- Nav and Hero Section -->
-    <!--<div class="flex flex-col justify-center items-center gap-[36px] w-full xl:h-[895px]">
-        <header
-            class="flex w-full h-[100px] lg:p-[10px] xl:p-[20px] items-center justify-between xl:justify-center lg:justify-center z-10 shadow-md shadow-[#0C0C0D0D] rounded-br-[10px] rounded-bl-[10px] font-poppins">
-            <nav
-                class="nav-left hidden xl:flex lg:flex items-center lg:gap-[20px] xl:gap-[24px] p-[10px]  justify-center font-normal max-w-[628px] h-[60px] leading-[30px] text-header2 xl:text-[16px] lg:text-[14px]">
-                <a href="#" class="nav-text">Specialties</a>
-                <a href="#" class="nav-text">About Us</a>
-                <a href="#" class="nav-text">Emergency</a>
-                <a href="#" class="nav-text">Treatments & Services</a>
-            </nav>
-            <section
-                class="max-w-[77px] xl:max-w-[144px] xl:max-h-[144px] lg:max-w-[100px] lg:max-h-[100px] bg-[#FFFFFF33] xl:shadow-md xl:shadow-[#0C0C0D0D] lg:shadow-md lg:shadow-[#0C0C0D0D] xl:p-[20px] lg:p-[20px] rounded-[500px] flex justify-center items-center gap-[10px]">
-                <img src="assets/logo/logo.svg" alt="Banker's Heart" class="w-[104px] h-[104px] rounded-[331.5px]" />
-
-            </section>
-            <img src="assets/logo/hamburger.svg" alt="Menu"
-                class="w-[40px] h-[40px] cursor-pointer xl:hidden lg:hidden block md:block sm:block">
-            <nav
-                class="nav-right hidden xl:flex lg:flex items-center lg:gap-[17px] xl:gap-[24px] p-[10px] xl:text-[16px] lg:text-[14px]  justify-center font-normal max-w-[660px] h-[60px] leading-[30px] text-header2">
-                <a href="#" class="nav-text">Online Consultation</a>
-                <a href="#" class="nav-text">Health Packages</a>
-                <a href="#" class="nav-text">Health Tips</a>
-                <a href="#" class="nav-text">Contact Us</a>
-            </nav>
-        </header>
-        <section class="max-w-[1440px] h-[671px] py-[136px] flex items-center justify-between gap-[48px] px-[20px]">
+    <div class="flex flex-col justify-center items-center gap-[36px] xl:h-[895px]">
+        <div class="shadow-md w-full shadow-[#0C0C0D0D] rounded-br-[10px] rounded-bl-[10px] ">
+            <header
+                class="container h-[100px] w-full xl:p-[20px] p-[9px] flex lg:justify-center justify-between bg-[#ffffff] relative z-10 font-poppins xl:items-start lg:items-center items-center">
+                <nav
+                    class="nav-left  hidden xl:flex lg:flex items-center lg:gap-[16px] xl:gap-[24px] justify-center font-normal max-w-[628px] h-[60px] leading-[30px] text-header2 xl:text-[16px] lg:text-[14px] p-[10px]">
+                    <a href="#" class="nav-text">Specialties</a>
+                    <a href="#" class="nav-text">About Us</a>
+                    <a href="#" class="nav-text">Emergency</a>
+                    <a href="#" class="nav-text">Treatments & Services</a>
+                </nav>
+                <section
+                    class="w-[100px] h-[100px] xl:w-[144px] xl:h-[144px] lg:w-[115px] lg:h-[115px] bg-[#FFFFFF33] lg:shadow-md lg:shadow-[#0C0C0D0D] lg:p-[20px] rounded-[500px] gap-[10px] flex items-center">
+                    <img src="assets/logo/logo.svg" alt="Banker's Heart"
+                        class="w-[76px] h-[76px] xl:w-[104px] xl:h-[104px] lg:w-[90px] lg:h-[90px] rounded-[331.5px]" />
+                </section>
+                <img src="assets/logo/hamburger.svg" alt="Menu"
+                    class="w-[40px] h-[40px] cursor-pointer xl:hidden lg:hidden block md:block sm:block">
+                <nav
+                    class="nav-right hidden xl:flex lg:flex items-center lg:gap-[17px] xl:gap-[24px] xl:text-[16px] lg:text-[14px] justify-center font-normal max-w-[660px] h-[60px] leading-[30px] text-header2 p-[10px]">
+                    <a href="#" class="nav-text">Online Consultation</a>
+                    <a href="#" class="nav-text">Health Packages</a>
+                    <a href="#" class="nav-text">Health Tips</a>
+                    <a href="#" class="nav-text">Contact Us</a>
+                </nav>
+            </header>
+        </div>
+        <section
+            class="container xl:h-[671px] xl:py-[136px] flex items-center justify-center gap-[10px] lg:gap-[48px] px-[20px]">
             <div class="left-slider w-[24px] h-[591px] rounded-tr-[50px] rounded-br-[50px] bg-[#FFCCCC] hidden"></div>
+            <!-- XL Screens -->
             <div
-                class="center-slider lg:max-w-[1200px] xl:max-w-[1344px] h-[671px] rounded-[50px] relative overflow-hidden flex lg:flex-row">
-                <div class="ellipse w-[633px] h-[633px] rounded-full rotate-180 absolute -left-[200px] my-[19px]"></div>
-                <section class="content flex flex-col gap-[99px] w-[526px] h-[513px] my-[79px] mx-[50px] z-10">
-                    <div class="top-content max-w-[502px] h-[513px] flex flex-col justify-start  gap-[22px] z-10">
-                        <div class="max-w-[502px] h-[417px] flex flex-col gap-[22px]">
-                            <div class="heading-content max-w-[502px] h-[311px] flex flex-col gap-[17px]">
+                class="center-slider w-[800px] h-[600px] xl:w-[1344px] lg:max-w-[1344px] lg:w-full md:w-[1200px] xl:h-[671px] lg:h-[600px] md:h-[700px] md:rounded-[50px] relative overflow-hidden flex lg:flex lg:flex-row flex-col lg:gap-[48px] justify-between items-center lg:items-stretch">
+                <div
+                    class="ellipse w-[633px] h-[633px] rounded-full -rotate-180 absolute xl:-left-[200px] my-[19px] md:-left-[200px]  -left-[200px] ">
+                </div>
+                <section
+                    class="content w-full  flex flex-col gap-[99px]  md:w-[526px] lg:h-[513px] md:h-[420px] h-[300px] lg:my-[79px] mx-[50px] z-10 justify-center items-center">
+                    <div
+                        class="top-content lg:w-[502px] w-full h-[513px] flex flex-col lg:items-start items-center gap-[12px] md:gap-[22px] z-10 justify-center">
+                        <div
+                            class="max-w-[502px] flex flex-col gap-[8px] md:gap-[22px] items-center justify-center lg:items-start">
+                            <div
+                                class="heading-content max-w-[502px] h-full flex flex-col gap-[6px] md:gap-[17px] items-center lg:items-start">
                                 <div
-                                    class="medical-service max-w-[269px] h-[36px] rounded-[44px] border-[1px] border-[#00000005] py-6px px-16px flex justify-center items-center gap-[10px] bg-[#FFFFFFB2]">
-                                    <span class="text-header font-medium font-roboto text-[16px]">Best Medical
+                                    class="medical-service max-w-[269px] w-[220px] md:w-full h-[36px] rounded-[44px] border-[1px] border-[#00000005] py-[6px] px-[16px] flex gap-[10px] bg-[#FFFFFFB2] items-center justify-center mt-[10px]">
+                                    <span class="text-header font-medium font-roboto text-[12px] md:text-[16px]">Best
+                                        Medical
                                         Services in 1
                                         Place</span>
                                 </div>
-                                <div class="title max-w-[502px]">
-                                    <h1 class="text-header text-[74px] font-bold leading-[86px] font-sora">
+                                <div class="title max-w-[502px] lg:text-left text-center">
+                                    <h1
+                                        class="text-header xl:text-[74px] lg:text-[60px] md:text-[50px] text-[30px] font-bold leading-[47px] md:leading-[57px] lg:leading-[86px] font-sora">
                                         Dedicated Human Touch
                                     </h1>
                                 </div>
                             </div>
-                            <div class="text max-w-[440px] h-[84px]">
-                                <p class="text-[16px] text-para font-normal leading-[28px] font-poppins">Lorem
+                            <div class="text max-w-[440px] h-auto lg:text-left text-center p-[2px]">
+                                <p
+                                    class="text-[14px] md:text-[16px] text-para font-normal leading-[20px] md:leading-[28px] font-poppins">
+                                    Lorem
                                     ipsum dolor sit
                                     amet,
                                     consectetur adipiscing
@@ -72,65 +86,94 @@
                             </div>
                         </div>
                         <button
-                            class="btn-appointement w-[234px] h-[60px] rounded-[10px] py-[20px] px-[22px] bg-button text-white font-semibold text-[16px] leading-[19px] hover:bg-[#cd0000ab] transition-colors ease-in-out 0.3s font-poppins">
+                            class="btn-appointement w-[192px] h-[50px] md:w-[234px] md:h-[60px] rounded-[10px] md:py-[20px] md:px-[22px] bg-button text-white font-semibold text-[14px] md:text-[16px] leading-[19px] hover:bg-[#cd0000ab] transition-colors ease-in-out 0.3s font-poppins">
                             BOOK AN APPOINTMENT
                         </button>
                     </div>
-                </section>
 
-                <div class="hero_img justify-end max-w-[720px] h-[671px] flex opacity-0 xl:opacity-100">
-                    <img src="assets/hero/hero-bg.svg" alt="Hero Image" class="object-cover" />
-                </div>
+                </section>
                 <section
-                    class="buttons w-[291px] h-[402px] flex flex-wrap flex-col items-center gap-[24px] absolute left-[642px] right-[411px] top-[79px] bottom-[190px] ">
+                    class="buttons lg:max-w-[291px] lg:w-full md:max-w-[900px] w-full lg:h-[802px] max-h-[402px] lg:full md:h-full h-[350px] flex lg:flex-col lg:items-center  md:gap-[24px] lg:absolute xl:left-[665px] lg:left-[600px] lg:right-[411px] lg:top-[79px] lg:bottom-[190px] md:bottom-10 bottom-2 md:flex-row flex-row flex-wrap lg:flex-nowrap items-center p-[8px] lg:p-0 gap-[10px] justify-evenly md:justify-center">
                     <div
-                        class="emergency_care w-[291px] h-[118px] rounded-[20px] border-[1px] border-[#FFFFFF4D] text-[#FFFFFFB2] p-[16px] flex items-center gap-[10px] bg-[#FFFFFFB2] backdrop-blur-[17.4px] shadow-md shadow-[#0C0C0D0D] hover:bg-[#bdbbbba1] cursor-pointer transition-all ease-in-out duration-500">
-                        <div class="w-[259px] h-[86px] flex justify-center items-center" style="gap: 16px">
-                            <img src="assets/hero/phone.svg" alt="emergency_care">
-                            <div class="flex flex-col w-[157px] h-[53px] gap-[8px] items-start">
-                                <span class="text-header2 text-[18px] font-semibold leading-[25px] font-sora">Emergency
+                        class="emergency_care max-w-[210px] w-full lg:max-w-[291px] lg:w-full lg:h-auto md:max-w-[300px] md:w-full md:h-[100px] p-[9px] lg:p-[16px]  h-[70px] rounded-[20px] border-[1px] border-[#FFFFFF4D] text-[#FFFFFFB2] md:p-[16px] flex items-center gap-[10px] bg-[#FFFFFFB2] backdrop-blur-[17.4px] shadow-md shadow-[#0C0C0D0D] hover:bg-[#bdbbbba1] cursor-pointer transition-all ease-in-out duration-500">
+                        <div class="lg:max-w-[259px] lg:w-full lg:max-h-[86px] lg:h-full  w-full flex justify-center items-center gap-[16px]"
+                            style="gap:16px">
+                            <div
+                                class="w-[50px] h-[50px] lg:w-[86px] lg:h-[86px] md:w-[70px] md:h-[70px]  rounded-[16px] border-[1px] border-[#FFFFFF4D] p-[16px] bg-[#FF0303] flex items-center justify-center">
+                                <div class="w-[47px] h-[47px] flex items-center justify-center">
+                                    <img src="assets/hero/phone.svg" alt="Phone" class="w-[30px] lg:w-[40px]">
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col md:max-w-[157px] md:w-full md:h-auto w-[210px] gap-[2px] md:gap-[8px] items-start">
+                                <span
+                                    class="text-header2 xl:text-[18px] md:text-[16px] text-[14px] font-semibold leading-[25px] font-sora xl:max-w-[157px] xl:w-full">Emergency
                                     Care</span>
-                                <div class="flex gap-[10px] justify-start items-start">
-                                    <span class="text-para font-medium text-[16px] font-poppins">CALL NOW</span>
-                                    <span class="w-[8.4px] h-[19.2px] text-para font-black text-[16px]">&#11208;</span>
+                                <div class="flex gap-[10px] items-center justify-center">
+                                    <span class="text-para font-medium md:text-[16px] text-[12px] font-poppins">CALL
+                                        NOW</span>
+                                    <span
+                                        class="w-[8.4px] h-[19.7px] text-para font-black text-[16px] hidden md:block">&#11208;</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div
-                        class="health_checkup w-[291px] h-[118px] rounded-[20px] border-[1px] border-[#FFFFFF4D] text-[#FFFFFFB2] p-[16px] flex items-center gap-[10px] bg-[#FFFFFFB2] backdrop-blur-[17.4px] shadow-md shadow-[#0C0C0D0D] hover:bg-[#bdbbbba1] transition-all ease-in-out duration-500 cursor-pointer">
-                        <div class="flex w-[259px] h-[86px] items-center" style="gap: 16px">
-                            <img src="assets/hero/clipboard.svg" alt="emergency_care" class="w-[86px] h-[86px]">
-                            <div class="flex flex-col w-[157px] h-[78px] gap-[8px] items-start">
+                        class="health_checkup max-w-[210px] w-full lg:max-w-[291px] lg:w-full lg:h-auto md:max-w-[300px] md:w-full md:h-[100px] p-[9px] lg:p-[16px]  h-[70px] rounded-[20px] border-[1px] border-[#FFFFFF4D] text-[#FFFFFFB2] md:p-[16px] flex items-center gap-[10px] bg-[#FFFFFFB2] backdrop-blur-[17.4px] shadow-md shadow-[#0C0C0D0D] hover:bg-[#bdbbbba1] cursor-pointer transition-all ease-in-out duration-500 ">
+                        <div class="lg:max-w-[259px] lg:w-full lg:max-h-[86px] lg:h-full   flex justify-center items-center gap-[16px]"
+                            style="gap:16px">
+                            <div
+                                class=" w-[50px] h-[50px] lg:w-[86px] lg:h-[86px] md:w-[70px] md:h-[70px]  rounded-[16px] border-[1px] border-[#FFFFFF4D] p-[16px] bg-[#037EFF] flex items-center justify-center">
+                                <div class="w-[47px] h-[47px] flex items-center justify-center">
+                                    <img src="assets/hero/clipboard.svg" alt="Clipboard" class="w-[30px] lg:w-[40px]">
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col w-full md:max-w-[157px] md:w-full md:h-auto gap-[2px] md:gap-[8px] items-start">
                                 <span
-                                    class="text-header2 text-[18px] font-semibold leading-[25px] w-[157px] h-[50px] font-sora">Health
+                                    class="text-header2 xl:text-[18px] md:text-[16px] text-[14px] font-semibold leading-[25px] font-sora xl:max-w-[157px] xl:w-full">Health
                                     Checkups</span>
-                                <div class="flex gap-[10px] justify-start items-start">
-                                    <span class="text-para font-medium text-[16px] font-poppins">CONNECT NOW</span>
-                                    <span class="w-[8.4px] h-[19.2px] text-para font-black text-[16px]">&#11208;</span>
+                                <div class="flex gap-[10px] items-center justify-center">
+                                    <span class="text-para font-medium md:text-[16px] text-[12px] font-poppins">CONNECT
+                                        NOW</span>
+                                    <span
+                                        class="w-[8.4px] h-[19.7px] text-para font-black text-[16px] hidden md:block">&#11208;</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div
-                        class="online_consultation w-[291px] h-[118px] rounded-[20px] border-[1px] border-[#FFFFFF4D] text-[#FFFFFFB2] p-[16px] flex items-center gap-[10px] bg-[#FFFFFFB2] backdrop-blur-[17px] shadow-md shadow-[#0C0C0D0D] hover:bg-[#bdbbbba1] cursor-pointer transition-all ease-in-out duration-500 ">
-                        <div class="flex w-[259px] h-[86px] items-center" style="gap: 16px">
-                            <img src="assets/hero/user.svg" alt="emergency_care" class="w-[86px] h-[86px]">
-                            <div class="flex flex-col w-[157px] h-[78px] gap-[8px] items-start">
+                        class="online_consultancy max-w-[210px] w-full lg:max-w-[291px] lg:w-full lg:h-auto md:max-w-[300px] md:w-full md:h-[100px] p-[9px] lg:p-[16px]  h-[70px] rounded-[20px] border-[1px] border-[#FFFFFF4D] text-[#FFFFFFB2] md:p-[16px] flex items-center gap-[10px] bg-[#FFFFFFB2] backdrop-blur-[17.4px] shadow-md shadow-[#0C0C0D0D] hover:bg-[#bdbbbba1] cursor-pointer transition-all ease-in-out duration-500 ">
+                        <div class="lg:max-w-[259px] lg:w-full lg:max-h-[86px] lg:h-full   flex justify-center items-center gap-[16px]"
+                            style="gap:16px">
+                            <div
+                                class=" w-[50px] h-[50px] lg:w-[86px] lg:h-[86px] md:w-[70px] md:h-[70px]  rounded-[16px] border-[1px] border-[#FFFFFF4D] p-[16px] bg-[#FFA200] flex items-center justify-center">
+                                <div class="w-[47px] h-[47px] flex items-center justify-center">
+                                    <img src="assets/hero/user.svg" alt="User" class="w-[30px] lg:w-[40px]">
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col md:max-w-[157px] md:w-full md:h-auto w-full gap-[2px] md:gap-[8px] items-start">
                                 <span
-                                    class="text-header2 text-[18px] font-semibold leading-[25px] w-[157px] h-[50px] font-sora">Online
+                                    class="text-header2 xl:text-[18px] md:text-[16px] text-[14px] font-semibold leading-[25px] font-sora xl:max-w-[157px] xl:w-full">Online
                                     Consultation</span>
-                                <div class="flex gap-[10px] w-[152px] items-center justify-center">
-                                    <span class="text-para font-medium text-[16px] leading-[19px] font-poppins">CONSULT
+                                <div class="flex gap-[10px] items-center justify-center">
+                                    <span class="text-para font-medium md:text-[16px] text-[12px] font-poppins">CONSULT
                                         ONLINE</span>
                                     <span
-                                        class="w-[8.4px] h-[19.2px] text-para font-black text-[16px] flex items-center justify-center">&#11208;</span>
+                                        class="w-[8.4px] h-[19.7px] text-para font-black text-[16px] hidden md:block">&#11208;</span>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                 </section>
+                <div class="hero_img xl:max-w-[720px] xl:w-[720px] hidden lg:block max-h-[671px] lg:max-w-[600px]">
+                    <img src="assets/hero/hero-bg.svg" alt="Hero Image" class="object-cover w-full h-full" />
+                </div>
+
             </div>
+
             <div class="right-slider w-[24px] h-[591px] rounded-tl-[50px] rounded-bl-[50px] bg-[#CCE5FF] hidden"></div>
         </section>
         <div class="slider_button w-[52px] h-[16px] flex items-center justify-center gap-[6px]">
@@ -141,15 +184,15 @@
             <div class="w-[12px] h-[12px] rounded-full bg-[#DDD1C5]">
             </div>
         </div>
-
-    </div>-->
+    </div>
 
     <!--= Patient Testimonials -->
-    <div class="w-full xl:h-[820px]">
-        <section class="container flex flex-col gap-[46px] px-[20px] sm:px-[80px] py-[64px] justify-center">
+    <div class="w-full xl:h-[820px] transition-all duration-700 ease-in-out">
+        <section
+            class="container flex flex-col gap-[46px] px-[20px] sm:px-[80px] py-[64px] justify-center transition-all duration-700 ease-in-out">
             <div class="font-sora max-w-[1280px] text-center xl:text-left lg:text-center md:text-center sm:text-center">
                 <span
-                    class="font-bold text-[35px] xl:text-[48px] lg:text-[43px] md:text-[40px] sm:text-[39px] leading-[77px] text-header">Patient
+                    class="font-bold text-[35px] xl:text-[48px] lg:text-[43px] md:text-[40px] sm:text-[39px] leading-[45px] sm:leading-[77px] text-header">Patient
                     Testimonials</span>
             </div>
             <section
@@ -255,12 +298,13 @@
 
     <!-- World Class Care -->
 
-    <div class="bg-[#FFFFFF] w-full xl:h-[1413px]">
-        <section class="container py-[64px] sm:px-[80px] px-[20px] flex flex-col gap-[46px]">
+    <div class="bg-[#FFFFFF] w-full xl:h-[1413px] transition-all duration-700 ease-in-out">
+        <section
+            class="container py-[64px] sm:px-[80px] px-[20px] flex flex-col gap-[46px] transition-all duration-700 ease-in-out">
             <div
                 class="header flex gap-[24px]  max-w-[1280px] flex-col items-center justify-center xl:flex-row lg:flex-col md:flex-col sm:flex-col">
                 <h1
-                    class="font-sora font-semibold text-[34px] lg:text-[43px] md:text-[39px] sm:text-[37px] xl:text-[48px] text-center leading-[60px] text-header max-w-[636px] xl:text-left lg:text-center md:text-center sm:text-center">
+                    class="font-sora font-semibold text-[34px] lg:text-[43px] md:text-[39px] sm:text-[37px] xl:text-[48px] text-center leading-[40px] sm:leading-[60px] text-header max-w-[636px] xl:text-left sm:text-center">
                     World-Class
                     Care
                     Close to
@@ -293,11 +337,11 @@
                     <div
                         class="grid w-full lg:col-span-1 xl:w-full lg:max-w-full md:max-w-full md:col-span-2 xl:col-span-1">
                         <img src="assets/world-class/gallery03.jpg" alt="Image-3"
-                            class="max-w-full h-[357px] rounded-[12px] object-cover">
+                            class="w-full h-[357px] rounded-[12px] object-cover">
                     </div>
                     <div class="grid w-full col-span-1 lg:col-span-2  lg:max-w-full xl:col-span-1">
                         <img src="assets/world-class/gallery04.jpg" alt="Image-4"
-                            class="max-w-full xl:h-[357px] lg:h-[357px] md:h-[357px] rounded-[12px] object-cover">
+                            class="w-full h-[357px] rounded-[12px] object-cover">
                     </div>
 
                     <div
@@ -330,12 +374,12 @@
             <div
                 class="max-w-[1280px] flex flex-col  xl:flex-row gap-[3px] xl:gap-[24px] lg:gap-[10px] sm:gap-[4px] md:flex-col lg:flex-col sm:flex-col transition-all duration-700 ease-in-out md:items-center md:justify-center sm:justify-center">
                 <h1
-                    class="font-sora font-semibold text-[30px] text-center xl:text-[48px] lg:text-[39px] xl:leading-[60px] text-header max-w-[700px] xl:text-left md:text-[33px]  sm:text-[32px] sm:text-center">
+                    class="font-sora font-semibold text-[30px] leading-[40px] text-center xl:text-[48px] lg:text-[39px] sm:leading-[60px] text-header max-w-[700px] xl:text-left md:text-[33px]  sm:text-[32px] sm:text-center">
                     Compassionate
                     Care
                     from Experts</h1>
                 <p
-                    class="max-w-[620px] font-inter font-normal text-center text-[14px] xl:text-[16px] leading-[28px] text-para p-3 xl:text-left lg:text-center md:text-center sm:text-center">
+                    class="max-w-[620px] font-inter font-normal text-center text-[14px] sm:text-[16px] leading-[24px] sm:leading-[28px] text-para p-3 xl:text-left sm:text-center">
                     Our
                     skilled
                     doctors
@@ -412,7 +456,7 @@
 
     <div class="bg-[#FFFFFF] w-full xl:h-[961px]">
         <section
-            class=" container flex items-center flex-col gap-[46px] py-[40px] px-[10px] sm:py-[64px] sm:px-[80px] lg:py-[64px] lg:px-[80px] xl:py-[64px] xl:px-[80px] transition-all duration-700 ease-in-out">
+            class=" container flex items-center flex-col gap-[46px] py-[40px] px-[10px] sm:py-[64px] sm:px-[80px] lg:py-[64px] lg:px-[80px] transition-all duration-700 ease-in-out">
             <div
                 class="max-w-[1280px] flex flex-col md:flex-col lg:flex-col sm:flex-col xl:flex-row  xl:gap-[24px] gap-[16px] items-center ">
                 <h1
@@ -731,8 +775,9 @@
 
     <div class="bg-[#FFFFFF] w-full xl:h-[977px]">
         <section
-            class="container flex flex-col items-center gap-[46px] pt-[64px] pb-[164px] px-[10px] md:px-[80px] lg:px-[80px] xl:px-[80px]">
-            <div class="header-block max-w-[1280px]  flex flex-col xl:flex-row gap-[32px] items-center justify-center">
+            class="container flex flex-col items-center gap-[46px] pt-[64px] pb-[164px] px-[10px] md:px-[80px] lg:px-[80px] xl:px-[80px] transition-all duration-700 ease-in-out">
+            <div
+                class="header-block max-w-[1280px]  flex flex-col xl:flex-row gap-[32px] items-center justify-center transition-all duration-700 ease-in-out">
                 <h1
                     class="font-sora font-semibold text-[35px] xl:text-[48px] lg:text-[44px] md:text-[43px] sm:text-[39px] xl:leading-[60px] text-header max-w-[636px] text-center xl:text-left">
                     Stay
@@ -746,7 +791,7 @@
                     advice, patient stories, and tips for maintaining a healthier lifestyle.</p>
             </div>
             <div
-                class="cards max-w-[1280px] xl:h-[477px] grid justify-center xl:grid-cols-3 lg:grid-cols-2 lg:justify-items-center ">
+                class="cards max-w-[1280px] xl:h-[477px] grid justify-center xl:grid-cols-3 lg:grid-cols-2 lg:justify-items-center transition-all duration-700 ease-in-out">
 
                 <!-- <!~~ Card -1 ~~> -->
                 <div
@@ -857,21 +902,22 @@
 
     <!-- Footer -->
     <footer
-        class="xl:h-[557px] w-full border-[#E5E7EB] border-[1px] rounded-tl-[10px] rounded-tr-[10px] backdrop-blur-[13.699999809265137px]"
+        class="xl:h-[557px] w-full border-[#E5E7EB] border-[1px] rounded-tl-[10px] rounded-tr-[10px] backdrop-blur-[13.6px] transition-all duration-700 ease-in-out"
         id="footer">
-        <main class="container w-full flex justify-center">
-            <section class=" max-w-[1280px] pb-[36px]" id="footer-wrapper">
-                <div id="footer-logo" 60px
-                    class="h-[134px] w-[134px] md:w-[184px] md:h-[184px] bg-[#FFFFFF66] border-[#D1D5DB] border-[1px] rounded-[50%] p-[20px] absolute 2  left-1/2 top-[0.9px] transform -translate-x-1/2 -translate-y-1/2  ">
+        <main class="container w-full flex justify-center transition-all duration-700 ease-in-out">
+            <section class="max-w-[1280px] pb-[36px] transition-all duration-700 ease-in-out" id="footer-wrapper">
+                <div id="footer-logo"
+                    class="h-[134px] w-[134px] md:w-[184px] md:h-[184px] bg-[#FFFFFF66] border-[#D1D5DB] border-[1px] rounded-[50%] p-[20px] absolute left-1/2 top-[0.9px] transform -translate-x-1/2 -translate-y-1/2  ">
                     <img src="assets/logo/logo.svg" alt="footer-logo-img"
                         class="md:h-[144px] md:w-[144px] h-[90px] w-[90px]">
                 </div>
-                <div class=" max-w-[1280px] grid xl:grid-cols-xl lg:grid-cols-lg  gap-[10px] lg:gap-[40px] sm:grid-cols-sm md:grid-rows-lg
+                <div class="max-w-[1280px] grid grid-rows-mobileDevice grid-cols-mobileDevice xl:grid-cols-xl lg:grid-cols-lg  gap-[10px] lg:gap-[40px] sm:grid-cols-sm md:grid-rows-lg
                     md:grid-cols-md sm:grid-rows-sm md:
-                    xl:grid-rows-1 ">
-                    <div class=" max-w-[412px] flex gap-[40px] md:justify-between justify-around sm:col-end-3 sm:col-start-1
+                    xl:grid-rows-1">
+                    <div class="max-w-[412px] flex gap-[40px] md:justify-between justify-around sm:col-end-3 sm:col-start-1
                     sm:max-w-full lg:col-start-auto lg:col-end-auto">
-                        <div class="h-[261px] max-w-[186px] flex flex-col items-end gap-[16px] my-[101px]" id="col-1">
+                        <div class="h-[261px] max-w-[186px] flex flex-col items-center sm:items-end gap-[16px] my-[101px]"
+                            id="col-1">
                             <h3 class="leading-[21px] text-[14px] text-[#111928] font-sora font-semibold uppercase">
                                 Specialties</h3>
                             <a class="link-text" href="#">Cardiology</a>
@@ -881,7 +927,8 @@
                             <a class="link-text" href="#">Pediatrics</a>
                             <a class="link-text" href="#">Gastroenterology</a>
                         </div>
-                        <div class="h-[261px] max-w-[186px] flex flex-col items-end gap-[16px] my-[101px]" id="col-2">
+                        <div class="h-[261px] max-w-[186px] flex flex-col items-center sm:items-end gap-[16px] my-[101px]"
+                            id="col-2">
                             <h3 class="leading-[21px] text-[14px] text-[#111928] font-sora font-semibold uppercase">
                                 COMPANY</h3>
                             <a class="link-text" href="#">About
@@ -897,7 +944,7 @@
                     <div class="h-[463px] max-w-[1px] bg-[#E5E7EB] hidden lg:flex" id="border-linee"></div>
                     <div class="max-w-[294px] flex flex-col items-center gap-[16px] relative justify-center place-items-center
                     sm:col-end-5 sm:col-start-1
-                    sm:max-w-full md:col-start-auto md:col-end-auto lg:col-start-auto lg:col-end-auto sm:left-0 sm:bottom-0 md:left-0 md:bottom-0 lg:left-0 lg:bottom-0 left-[65px] bottom-[40px] xl:left-0 xl:bottom-0"
+                    sm:max-w-full md:col-start-auto md:col-end-auto lg:col-start-auto lg:col-end-auto sm:left-0 sm:bottom-0 md:left-[30px] md:bottom-0 lg:left-0 lg:bottom-0 left-[40px] bottom-[40px] xl:left-0 xl:bottom-0"
                         id="col-3">
                         <div class="h-[101px] max-w-[294px] gap-2 items-center flex flex-col">
                             <h3 class="leading-[21px] text-[14px] text-[#111928] font-sora font-semibold uppercase">
@@ -925,15 +972,15 @@
                         </div>
                     </div>
                     <div class="h-[463px] max-w-[1px] bg-[#E5E7EB] hidden lg:flex" id="border-linee"></div>
-                    <div class="w-[412px] h-[240px] flex flex-col gap-[24px] xl:my-[101px] md:pb-[40px] xl:pb-0 md:col-span-3 place-items-center
+                    <div class="xl:max-w-[412px] h-[240px] flex flex-col gap-[24px] xl:my-[101px] md:pb-[40px] xl:pb-0 md:col-span-3 place-items-center
                     lg:col-end-5 lg:col-start-1
                     lg:max-w-full xl:col-start-auto xl:col-end-auto sm:col-end-3 sm:col-start-1
                     sm:max-w-full
                      border-[#E5E7EB]" id="col-4">
-                        <div class="h-[61px] max-w-[412px] flex flex-col gap-[16px] items-center xl:items-baseline">
+                        <div class="h-[61px] xl:max-w-[412px] flex flex-col gap-[16px] items-center xl:items-baseline">
                             <h3 class="leading-[21px] text-[14px] text-[#111928] font-sora font-semibold uppercase">
                                 Follow Us</h3>
-                            <div class="w-[412px] h-[24px] flex gap-[16px] justify-center xl:justify-start"
+                            <div class="xl:max-w-[412px] h-[24px] flex gap-[16px] justify-center xl:justify-start"
                                 id="social-media-links">
                                 <img src="assets/footer/Social 01.svg" alt="social-media-img" class="h-[24px] w-[24px]">
                                 <img src="assets/footer/Social 02.svg" alt="social-media-img" class="h-[24px] w-[24px]">
@@ -942,12 +989,12 @@
                                 <img src="assets/footer/Social 05.svg" alt="social-media-img" class="h-[24px] w-[24px]">
                             </div>
                         </div>
-                        <div class="h-[79px] max-w-[412px] flex flex-col gap-[16px] ">
+                        <div class="h-[79px] xl:max-w-[412px] flex flex-col gap-[16px] ">
                             <h3
                                 class="leading-[21px] text-[14px] text-[#111928] font-sora font-semibold uppercase text-center xl:text-start">
                                 Subscribe Newsletter</h3>
                             <form
-                                class="w-[400px] flex flex-col sm:flex-row items-center sm:items-start gap-[10px] sm:gap-0"
+                                class="xl:max-w-[400px] flex flex-col sm:flex-row items-center sm:items-start gap-[10px] sm:gap-0"
                                 id="subscribe-input-block">
                                 <div
                                     class="h-[42px] w-[269px] px-[16px] py-[12px] rounded-[7px] sm:rounded-l-[8px] sm:rounded-none border-[1px] sm:border-t-[1px] sm:border-b-[1px] sm:border-l-[1px] border-[#D1D5DB]">
@@ -958,7 +1005,7 @@
                                     </label>
                                 </div>
                                 <button
-                                    class="h-[42px] w-[127px] rounded-[6px] sm:rounded-e-[8px] sm:rounded-none py-[10px] px-[20px] uppercase font-poppins font-semibold text-[16px] leading-[19.2px] text-[#FFFFFF] hover:transform hover:scale-[1.100] hover:bg-[#ac0000de] duration-300 transition-all ease-linear bg-[#CD0001]">
+                                    class="h-[42px] w-[127px] rounded-[6px] sm:rounded-e-[8px] sm:rounded-none py-[10px] px-[20px] uppercase font-poppins font-semibold text-[16px] leading-[19.2px] text-[#FFFFFF] hover:transform hover:scale-[1.100] hover:bg-[#ac0000de] duration-300 transition-all ease-linear bg-button">
                                     Subscribe
                                 </button>
                             </form>
