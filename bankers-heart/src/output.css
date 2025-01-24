@@ -3349,16 +3349,12 @@ video {
     flex-direction: row;
   }
 
-  .xl\:place-items-start {
-    place-items: start;
-  }
-
   .xl\:items-start {
     align-items: flex-start;
   }
 
-  .xl\:items-stretch {
-    align-items: stretch;
+  .xl\:items-baseline {
+    align-items: baseline;
   }
 
   .xl\:justify-start {
