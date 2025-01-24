@@ -1692,10 +1692,6 @@ video {
   padding-bottom: 36px;
 }
 
-.pt-\[20px\] {
-  padding-top: 20px;
-}
-
 .pt-\[24px\] {
   padding-top: 24px;
 }
@@ -3353,12 +3349,16 @@ video {
     flex-direction: row;
   }
 
+  .xl\:place-items-start {
+    place-items: start;
+  }
+
   .xl\:items-start {
     align-items: flex-start;
   }
 
-  .xl\:items-baseline {
-    align-items: baseline;
+  .xl\:items-stretch {
+    align-items: stretch;
   }
 
   .xl\:justify-start {

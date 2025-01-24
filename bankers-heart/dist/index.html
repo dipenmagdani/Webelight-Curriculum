@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bankers Heart | Group of Hosiptals</title>
+    <link rel="icon" href="assets/logo/logo.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Nav and Hero Section -->
+    <div class="flex flex-col justify-center items-center gap-[36px] xl:h-[895px]">
+        <div class="shadow-md w-full shadow-[#0C0C0D0D] rounded-br-[10px] rounded-bl-[10px] ">
+            <header
+                class="container h-[100px] w-full xl:p-[20px] p-[9px] flex lg:justify-center justify-between bg-[#ffffff] relative z-10 font-poppins xl:items-start lg:items-center items-center">
+                <nav
+                    class="nav-left  hidden xl:flex lg:flex items-center lg:gap-[16px] xl:gap-[24px] justify-center font-normal max-w-[628px] h-[60px] leading-[30px] text-header2 xl:text-[16px] lg:text-[14px] p-[10px]">
+                    <a href="#" class="nav-text">Specialties</a>
+                    <a href="#" class="nav-text">About Us</a>
+                    <a href="#" class="nav-text">Emergency</a>
+                    <a href="#" class="nav-text">Treatments & Services</a>
+                </nav>
+                <section
+                    class="w-[100px] h-[100px] xl:w-[144px] xl:h-[144px] lg:w-[115px] lg:h-[115px] bg-[#FFFFFF33] lg:shadow-md lg:shadow-[#0C0C0D0D] lg:p-[20px] rounded-[500px] gap-[10px] flex items-center">
+                    <img src="assets/logo/logo.svg" alt="Banker's Heart"
+                        class="w-[76px] h-[76px] xl:w-[104px] xl:h-[104px] lg:w-[90px] lg:h-[90px] rounded-[331.5px]" />
+                </section>
+                <img src="assets/logo/hamburger.svg" alt="Menu"
+                    class="w-[40px] h-[40px] cursor-pointer xl:hidden lg:hidden block md:block sm:block">
+                <nav
+                    class="nav-right hidden xl:flex lg:flex items-center lg:gap-[17px] xl:gap-[24px] xl:text-[16px] lg:text-[14px] justify-center font-normal max-w-[660px] h-[60px] leading-[30px] text-header2 p-[10px]">
+                    <a href="#" class="nav-text">Online Consultation</a>
+                    <a href="#" class="nav-text">Health Packages</a>
+                    <a href="#" class="nav-text">Health Tips</a>
+                    <a href="#" class="nav-text">Contact Us</a>
+                </nav>
+            </header>
+        </div>
+        <section
+            class="container xl:h-[671px] xl:py-[136px] flex items-center justify-center gap-[10px] lg:gap-[48px] px-[20px]">
+            <div class="left-slider w-[24px] h-[591px] rounded-tr-[50px] rounded-br-[50px] bg-[#FFCCCC] hidden"></div>
+            <!-- XL Screens -->
+            <div
+                class="center-slider w-[800px] h-[600px] xl:w-[1344px] lg:max-w-[1344px] lg:w-full md:w-[1200px] xl:h-[671px] lg:h-[600px] md:h-[700px] md:rounded-[50px] relative overflow-hidden flex lg:flex lg:flex-row flex-col lg:gap-[48px] justify-between items-center lg:items-stretch">
+                <div
+                    class="ellipse w-[633px] h-[633px] rounded-full -rotate-180 absolute xl:-left-[200px] my-[19px] md:-left-[200px]  -left-[200px] ">
+                </div>
+                <section
+                    class="content w-full  flex flex-col gap-[99px]  md:w-[526px] lg:h-[513px] md:h-[420px] h-[300px] lg:my-[79px] mx-[50px] z-10 justify-center items-center">
+                    <div
+                        class="top-content lg:w-[502px] w-full h-[513px] flex flex-col lg:items-start items-center gap-[12px] md:gap-[22px] z-10 justify-center">
+                        <div
+                            class="max-w-[502px] flex flex-col gap-[8px] md:gap-[22px] items-center justify-center lg:items-start">
+                            <div
+                                class="heading-content max-w-[502px] h-full flex flex-col gap-[6px] md:gap-[17px] items-center lg:items-start">
+                                <div
+                                    class="medical-service max-w-[269px] w-[220px] md:w-full h-[36px] rounded-[44px] border-[1px] border-[#00000005] py-[6px] px-[16px] flex gap-[10px] bg-[#FFFFFFB2] items-center justify-center mt-[10px]">
+                                    <span class="text-header font-medium font-roboto text-[12px] md:text-[16px]">Best
+                                        Medical
+                                        Services in 1
+                                        Place</span>
+                                </div>
+                                <div class="title max-w-[502px] lg:text-left text-center">
+                                    <h1
+                                        class="text-header xl:text-[74px] lg:text-[60px] md:text-[50px] text-[30px] font-bold leading-[47px] md:leading-[57px] lg:leading-[86px] font-sora">
+                                        Dedicated Human Touch
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="text max-w-[440px] h-auto lg:text-left text-center p-[2px]">
+                                <p
+                                    class="text-[14px] md:text-[16px] text-para font-normal leading-[20px] md:leading-[28px] font-poppins">
+                                    Lorem
+                                    ipsum dolor sit
+                                    amet,
+                                    consectetur adipiscing
+                                    elit. Sit urna, tortor pulvinar dolor rhoncus.Tristique sit
+                                    eros consectetur adipiscing elit..</p>
+                            </div>
+                        </div>
+                        <button
+                            class="btn-appointement w-[192px] h-[50px] md:w-[234px] md:h-[60px] rounded-[10px] md:py-[20px] md:px-[22px] bg-button text-white font-semibold text-[14px] md:text-[16px] leading-[19px] hover:bg-[#cd0000ab] transition-colors ease-in-out 0.3s font-poppins">
+                            BOOK AN APPOINTMENT
+                        </button>
+                    </div>
+
+                </section>
+                <section
+                    class="buttons lg:max-w-[291px] lg:w-full md:max-w-[900px] w-full lg:h-[802px] max-h-[402px] lg:full md:h-full h-[350px] flex lg:flex-col lg:items-center  md:gap-[24px] lg:absolute xl:left-[665px] lg:left-[600px] lg:right-[411px] lg:top-[79px] lg:bottom-[190px] md:bottom-10 bottom-2 md:flex-row flex-row flex-wrap lg:flex-nowrap items-center p-[8px] lg:p-0 gap-[10px] justify-evenly md:justify-center">
+                    <div
+                        class="emergency_care max-w-[210px] w-full lg:max-w-[291px] lg:w-full lg:h-auto md:max-w-[300px] md:w-full md:h-[100px] p-[9px] lg:p-[16px]  h-[70px] rounded-[20px] border-[1px] border-[#FFFFFF4D] text-[#FFFFFFB2] md:p-[16px] flex items-center gap-[10px] bg-[#FFFFFFB2] backdrop-blur-[17.4px] shadow-md shadow-[#0C0C0D0D] hover:bg-[#bdbbbba1] cursor-pointer transition-all ease-in-out duration-500">
+                        <div class="lg:max-w-[259px] lg:w-full lg:max-h-[86px] lg:h-full  w-full flex justify-center items-center gap-[16px]"
+                            style="gap:16px">
+                            <div
+                                class="w-[50px] h-[50px] lg:w-[86px] lg:h-[86px] md:w-[70px] md:h-[70px]  rounded-[16px] border-[1px] border-[#FFFFFF4D] p-[16px] bg-[#FF0303] flex items-center justify-center">
+                                <div class="w-[47px] h-[47px] flex items-center justify-center">
+                                    <img src="assets/hero/phone.svg" alt="Phone" class="w-[30px] lg:w-[40px]">
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col md:max-w-[157px] md:w-full md:h-auto w-[210px] gap-[2px] md:gap-[8px] items-start">
+                                <span
+                                    class="text-header2 xl:text-[18px] md:text-[16px] text-[14px] font-semibold leading-[25px] font-sora xl:max-w-[157px] xl:w-full">Emergency
+                                    Care</span>
+                                <div class="flex gap-[10px] items-center justify-center">
+                                    <span class="text-para font-medium md:text-[16px] text-[12px] font-poppins">CALL
+                                        NOW</span>
+                                    <span
+                                        class="w-[8.4px] h-[19.7px] text-para font-black text-[16px] hidden md:block">&#11208;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="health_checkup max-w-[210px] w-full lg:max-w-[291px] lg:w-full lg:h-auto md:max-w-[300px] md:w-full md:h-[100px] p-[9px] lg:p-[16px]  h-[70px] rounded-[20px] border-[1px] border-[#FFFFFF4D] text-[#FFFFFFB2] md:p-[16px] flex items-center gap-[10px] bg-[#FFFFFFB2] backdrop-blur-[17.4px] shadow-md shadow-[#0C0C0D0D] hover:bg-[#bdbbbba1] cursor-pointer transition-all ease-in-out duration-500 ">
+                        <div class="lg:max-w-[259px] lg:w-full lg:max-h-[86px] lg:h-full   flex justify-center items-center gap-[16px]"
+                            style="gap:16px">
+                            <div
+                                class=" w-[50px] h-[50px] lg:w-[86px] lg:h-[86px] md:w-[70px] md:h-[70px]  rounded-[16px] border-[1px] border-[#FFFFFF4D] p-[16px] bg-[#037EFF] flex items-center justify-center">
+                                <div class="w-[47px] h-[47px] flex items-center justify-center">
+                                    <img src="assets/hero/clipboard.svg" alt="Clipboard" class="w-[30px] lg:w-[40px]">
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col w-full md:max-w-[157px] md:w-full md:h-auto gap-[2px] md:gap-[8px] items-start">
+                                <span
+                                    class="text-header2 xl:text-[18px] md:text-[16px] text-[14px] font-semibold leading-[25px] font-sora xl:max-w-[157px] xl:w-full">Health
+                                    Checkups</span>
+                                <div class="flex gap-[10px] items-center justify-center">
+                                    <span class="text-para font-medium md:text-[16px] text-[12px] font-poppins">CONNECT
+                                        NOW</span>
+                                    <span
+                                        class="w-[8.4px] h-[19.7px] text-para font-black text-[16px] hidden md:block">&#11208;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="online_consultancy max-w-[210px] w-full lg:max-w-[291px] lg:w-full lg:h-auto md:max-w-[300px] md:w-full md:h-[100px] p-[9px] lg:p-[16px]  h-[70px] rounded-[20px] border-[1px] border-[#FFFFFF4D] text-[#FFFFFFB2] md:p-[16px] flex items-center gap-[10px] bg-[#FFFFFFB2] backdrop-blur-[17.4px] shadow-md shadow-[#0C0C0D0D] hover:bg-[#bdbbbba1] cursor-pointer transition-all ease-in-out duration-500 ">
+                        <div class="lg:max-w-[259px] lg:w-full lg:max-h-[86px] lg:h-full   flex justify-center items-center gap-[16px]"
+                            style="gap:16px">
+                            <div
+                                class=" w-[50px] h-[50px] lg:w-[86px] lg:h-[86px] md:w-[70px] md:h-[70px]  rounded-[16px] border-[1px] border-[#FFFFFF4D] p-[16px] bg-[#FFA200] flex items-center justify-center">
+                                <div class="w-[47px] h-[47px] flex items-center justify-center">
+                                    <img src="assets/hero/user.svg" alt="User" class="w-[30px] lg:w-[40px]">
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col md:max-w-[157px] md:w-full md:h-auto w-full gap-[2px] md:gap-[8px] items-start">
+                                <span
+                                    class="text-header2 xl:text-[18px] md:text-[16px] text-[14px] font-semibold leading-[25px] font-sora xl:max-w-[157px] xl:w-full">Online
+                                    Consultation</span>
+                                <div class="flex gap-[10px] items-center justify-center">
+                                    <span class="text-para font-medium md:text-[16px] text-[12px] font-poppins">CONSULT
+                                        ONLINE</span>
+                                    <span
+                                        class="w-[8.4px] h-[19.7px] text-para font-black text-[16px] hidden md:block">&#11208;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+                <div class="hero_img xl:max-w-[720px] xl:w-[720px] hidden lg:block max-h-[671px] lg:max-w-[600px]">
+                    <img src="assets/hero/hero-bg.svg" alt="Hero Image" class="object-cover w-full h-full" />
+                </div>
+
+            </div>
+
+            <div class="right-slider w-[24px] h-[591px] rounded-tl-[50px] rounded-bl-[50px] bg-[#CCE5FF] hidden"></div>
+        </section>
+        <div class="slider_button w-[52px] h-[16px] flex items-center justify-center gap-[6px]">
+            <div class="w-[12px] h-[12px] rounded-full bg-[#DDD1C5]">
+            </div>
+            <div class="w-[16px] h-[16px] rounded-full bg-[#900C0D]">
+            </div>
+            <div class="w-[12px] h-[12px] rounded-full bg-[#DDD1C5]">
+            </div>
+        </div>
+    </div>
+
+    <!--= Patient Testimonials -->
+    <div class="w-full xl:h-[820px] transition-all duration-700 ease-in-out">
+        <section
+            class="container flex flex-col gap-[46px] px-[20px] sm:px-[80px] py-[64px] justify-center transition-all duration-700 ease-in-out">
+            <div class="font-sora max-w-[1280px] text-center xl:text-left lg:text-center md:text-center sm:text-center">
+                <span
+                    class="font-bold text-[35px] xl:text-[48px] lg:text-[43px] md:text-[40px] sm:text-[39px] leading-[45px] sm:leading-[77px] text-header">Patient
+                    Testimonials</span>
+            </div>
+            <section
+                class="max-w-[1280px] flex items-center justify-center flex-col gap-[45px] lg:gap-[67px] xl:gap-[74px] md:gap-[56px] sm:gap-[50px] xl:flex-row cursor-pointer md:flex-col sm:flex-col lg:flex-col md:justify-center">
+                <div
+                    class="group max-w-[450px] xl:max-w-[618px] lg:max-w-[500px] md:max-w-[470px] sm:max-w-[440px] rounded-[30px] border-[1px] border-[#CCCCCC66] p-[10px] flex gap-[10px] bg-[#FFFFFF80] backdrop-blur-[52.3px] justify-center items-center">
+                    <img src="assets/testimonial/video.png" alt="Video Testimonial"
+                        class="max-w-full object-cover rounded-[24px] group-hover:opacity-55 transition-all ease-in-out duration-700">
+                    <div
+                        class="video_icon absolute  max-w-[102px] rounded-[100px] border-1px border-[#FFFFFF4D] p-[16px] flex bg-[#FFDDDD66] backdrop-blur-[14.8px] shadow-md shadow-[#0C0C0D0D]flex items-center justify-center group-hover:w-[120px] group-hover:h-[120px] transition-all ease-in-out duration-300">
+                        <img src="assets/testimonial/play_icon.png" alt="play icon"
+                            class="max-w-[56px] max-h-[56px] group-hover:w-[70px] group-hover:h-[70px] transition-all ease-in-out duration-300">
+                    </div>
+
+                </div>
+
+                <div
+                    class="flex flex-col gap-[24px] md:justify-center px-[10px] xl:px-0 lg:px-0 md:px-0 sm:px-0 lg:justify-center">
+                    <img src="assets/testimonial/stroke.png" alt="Stroke"
+                        class="w-[38px] lg:w-[70px] xl:w-[88px] md:w-[60px] sm:w-[45px]">
+                    <p
+                        class="w-full xl:max-w-[588px] lg:max-w-[630px] md:max-w-[700px] sm:w-full font-poppins font-medium text-[17px] lg:text-[20px] xl:text-[24px] md:text-[19px] sm:text-[18px] leading-[29px] xl:leading-[45px] lg:leading-[40px] md:leading-[35px] sm:leading-[32px] text-header2">
+                        "I can't express how grateful I am to the entire team at Bankers Hospital. When my husband,
+                        John,
+                        started experiencing severe chest pain, we rushed him to the hospital. From the moment we
+                        arrived,
+                        the care and attention were extraordinary.”
+                    </p>
+                    <div class="max-w-[588px]  flex flex-col  gap-[4px]">
+                        <span
+                            class="font-sora font-semibold lg:text-[22px] xl:text-[24px] leading-[30px] text-header2">Peter
+                            John</span>
+                        <span
+                            class="font-poppins text-header2 font-normal lg:text-[13px] xl:text-[14px] leading-[20px]">Cardiology
+                            Patient</span>
+                    </div>
+                </div>
+            </section>
+            <div
+                class="slider-buttons max-w-[1280px] flex justify-center lg:justify-center md:justify-center sm:justify-center xl:justify-between items-center">
+                <div class="slider_button hidden max-w-[70px] h-[16px] xl:flex items-center justify-center gap-[6px]">
+                    <div class="w-[16px] h-[16px] rounded-full bg-[#900C0D]">
+                    </div>
+                    <div class="w-[12px] h-[12px] rounded-full bg-[#DDD1C5]">
+                    </div>
+                    <div class="w-[12px] h-[12px] rounded-full bg-[#DDD1C5]">
+                    </div>
+                    <div class="w-[12px] h-[12px] rounded-full bg-[#DDD1C5]">
+                    </div>
+                </div>
+                <div class="max-w-[284px] h-[68px] flex items-center gap-[24px]">
+                    <div
+                        class="max-w-[40px] max-h-[44px] lg:max-w-[110px] lg:max-h-[60px]  md:max-w-[100px] md:max-h-[55px] sm:max-w-[80px] sm:max-h-[45px] xl:max-w-[130px] xl:max-h-[68px] rounded-[150px] border-[2px] border-[#D1D5DB] py-[16px] px-[47px] flex items-center justify-center gap-[10px] cursor-pointer hover:border-[#e44848] transition-all ease-in-out duration-500">
+                        <img src="assets/testimonial/arrow.svg" alt="Arrow left"
+                            class="object-contain max-w-[24px] lg:max-w-[30px] md:max-w-[30px] sm:max-w-[24px]">
+                    </div>
+                    <div
+                        class="max-w-[40px] max-h-[44px] lg:max-w-[110px] lg:max-h-[60px]  md:max-w-[100px] md:max-h-[55px] sm:max-w-[80px] sm:max-h-[45px] xl:max-w-[130px] xl:max-h-[68px] rounded-[150px] border-[2px] border-[#D1D5DB] py-[16px] px-[47px] flex items-center justify-center gap-[10px] cursor-pointer hover:border-[#e44848] transition-all ease-in-out duration-500">
+                        <img src="assets/testimonial/arrow.svg" alt="Arrow left"
+                            class="object-contain max-w-[24px] lg:max-w-[30px] md:max-w-[30px] sm:max-w-[24px] rotate-180">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- Expert Care -->
+
+    <div class="bg-custom-gradient w-full xl:h-[593px]">
+        <section
+            class="container py-[64px] px-[10px] xl:px-[80px] lg:px-[80px] md:px-[80px] sm:px-[80px] flex items-center flex-col-reverse gap-[10px] xl:flex-row lg:flex-col-reverse xl:gap-[73px] md:flex-col-reverse sm:flex-col-reverse md:gap-[23px] sm:gap-[23px] xl:justify-between lg:justify-center transition-all duration-700 ease-in-out justify-center">
+            <div
+                class="max-w-[503px] max-h-[356px] flex flex-col md:gap-[20px] gap-[36px] lg:items-center md:items-center md:justify-center xl:items-start items-center ">
+                <div
+                    class=" flex flex-col gap-[22px] lg:items-center xl:items-start md:items-center sm:items-center items-center">
+                    <h1
+                        class="max-w-full text-header font-sora font-bold lg:text-[42px] xl:text-[48px] xl:leading-[77px]  xl:max-h-[210px]  lg:text-center xl:text-start md:text-center sm:text-center md:text-[34px] sm:text-[29px] text-[27px] text-center">
+                        Get Expert
+                        Care From Home
+                    </h1>
+                    <p
+                        class="max-w-full font-poppins font-normal text-[14px] text-para xl:text-[16px]  xl:leading-[28px] xl:w-[503px] xl:max-h-[100px] xl:text-left md:text-center sm:text-center lg:text-center text-center leading-[24px]">
+                        Lorem ipsum
+                        dolor sit
+                        amet,
+                        consectetur
+                        adipiscing
+                        elit. Sit urna, tortor pulvinar dolor rhoncus.Tristique sit
+                        eros consectetur adipiscing elit..</p>
+
+                </div>
+                <button
+                    class="btn-appointment w-[163px] h-[60px] rounded-[10px] py-[20px] px-[22px] bg-[#CD0001] text-white font-semibold text-[16px] leading-[19px]hover:bg-red-500 font-poppins hover:bg-[#f7c6c6ab] transition-all ease-in-out duration-500">
+                    CONSULT NOW
+                </button>
+            </div>
+            <div class="max-w-[360px] xl:max-w-[704px] lg:max-w-[500px] md:max-w-[470px] sm:max-w-[460px]">
+                <img src="assets/Expert Care/expert.png" alt="Expert Care">
+            </div>
+        </section>
+    </div>
+
+    <!-- World Class Care -->
+
+    <div class="bg-[#FFFFFF] w-full xl:h-[1413px] transition-all duration-700 ease-in-out">
+        <section
+            class="container py-[64px] sm:px-[80px] px-[20px] flex flex-col gap-[46px] transition-all duration-700 ease-in-out">
+            <div
+                class="header flex gap-[24px]  max-w-[1280px] flex-col items-center justify-center xl:flex-row lg:flex-col md:flex-col sm:flex-col">
+                <h1
+                    class="font-sora font-semibold text-[34px] lg:text-[43px] md:text-[39px] sm:text-[37px] xl:text-[48px] text-center leading-[40px] sm:leading-[60px] text-header max-w-[636px] xl:text-left sm:text-center">
+                    World-Class
+                    Care
+                    Close to
+                    Home</h1>
+                <p
+                    class="max-w-[620px] font-inter font-normal text-[14px] sm:text-16px leading-[28px] text-center text-para xl:text-left lg:text-center md:text-center sm:text-center">
+                    Discover advanced
+                    technology,
+                    modern
+                    infrastructure, and
+                    compassionate
+                    care—all
+                    designed to provide
+                    the best healthcare experience.</p>
+            </div>
+            <div class="gallery-section max-w-[1280px] grid gap-[24px]">
+                <div class="grid xl:grid-cols-2 lg:grid-cols-3 max-w-[1280px] gap-[24px] ">
+                    <div class="grid lg:col-span-2 lg:max-w-[730px] xl:col-span-1">
+                        <img src="assets/world-class/gallery01.jpg" alt="Image-1"
+                            class="w-full h-[357px] rounded-[12px] object-cover">
+                    </div>
+                    <div class="grid w-full lg:max-w-[550px] xl:max-w-full">
+                        <img src="assets/world-class/gallery02.jpg" alt="Image-2"
+                            class="w-full h-[357px] rounded-[12px] object-cover">
+                    </div>
+                </div>
+
+                <div
+                    class="grid gap-[24px] lg:grid-cols-4 xl:grid-cols-3 md:grid-cols-3 xl:gap-[24px] lg:gap-[10px] md:gap-[24px] max-w-[1280px]">
+                    <div
+                        class="grid w-full lg:col-span-1 xl:w-full lg:max-w-full md:max-w-full md:col-span-2 xl:col-span-1">
+                        <img src="assets/world-class/gallery03.jpg" alt="Image-3"
+                            class="w-full h-[357px] rounded-[12px] object-cover">
+                    </div>
+                    <div class="grid w-full col-span-1 lg:col-span-2  lg:max-w-full xl:col-span-1">
+                        <img src="assets/world-class/gallery04.jpg" alt="Image-4"
+                            class="w-full h-[357px] rounded-[12px] object-cover">
+                    </div>
+
+                    <div
+                        class="grid w-full lg:col-span-1 xl:w-full lg:max-w-full md:max-w-full md:col-span-3 xl:col-span-1 justify-items-center">
+                        <img src="assets/world-class/gallery05.jpg" alt="Image-5"
+                            class="w-full h-[357px] rounded-[12px] object-cover">
+                    </div>
+                </div>
+                <div class="grid xl:grid-cols-2 lg:grid-cols-3 md:grid-cols-2 max-w-[1280px] gap-[24px]">
+                    <div class="grid w-full lg:max-w-[550px] xl:max-w-full lg:col-span-1 md:col-span-1">
+                        <img src="assets/world-class/gallery06.jpg" alt="Image-6"
+                            class="w-full h-[357px] rounded-[12px] object-cover">
+                    </div>
+                    <div class="grid lg:col-span-2 lg:max-w-[730px] xl:col-span-1">
+                        <img src="assets/world-class/gallery07.jpg" alt="Image-7"
+                            class="w-full h-[357px] rounded-[12px] object-cover">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Compassionate Care -->
+    <div class="w-full xl:h-[677px]" style="background: linear-gradient(90.06deg, #FFFFFF 2.36%, #FFF4E8 99.2%);
+">
+        <section
+            class="container py-[64px] px-[20px] xl:px-[80px] lg:px-[78px] md:px-[74px] sm:px-[68px] flex flex-col gap-[46px] transition-all duration-700 ease-in-out xl:justify-start xl:items-start">
+            <div
+                class="max-w-[1280px] flex flex-col  xl:flex-row gap-[3px] xl:gap-[24px] lg:gap-[10px] sm:gap-[4px] md:flex-col lg:flex-col sm:flex-col transition-all duration-700 ease-in-out md:items-center md:justify-center sm:justify-center">
+                <h1
+                    class="font-sora font-semibold text-[30px] leading-[40px] text-center xl:text-[48px] lg:text-[39px] sm:leading-[60px] text-header max-w-[700px] xl:text-left md:text-[33px]  sm:text-[32px] sm:text-center">
+                    Compassionate
+                    Care
+                    from Experts</h1>
+                <p
+                    class="max-w-[620px] font-inter font-normal text-center text-[14px] sm:text-[16px] leading-[24px] sm:leading-[28px] text-para p-3 xl:text-left sm:text-center">
+                    Our
+                    skilled
+                    doctors
+                    provide personalized treatment, ensuring your health and well-being at every step.</p>
+            </div>
+
+            <div
+                class="doctors max-w-[1280px] grid xl:grid-cols-4 lg:grid-cols-3 justify-items-center sm:grid-cols-1 xl:justify-items-start md:grid-cols-2 md:justify-items-center xl:gap-x-[50px] lg:justify-items-center lg:gap-x-[10px]  gap-[48px] transition-all duration-700 ease-in-out">
+                <div
+                    class="doc max-w-[284px] h-[383px] rounded-[24px] border-[1px] border-[#9CA3AF]  backdrop-blur-[26px] bg-[#FFFFFF80] cursor-pointer flex flex-col items-center justify-center sm:justify-center transition-all duration-700 ease-in-out">
+                    <img src="assets/Compassionate Care/Doctor 01.png" alt="Doctor 1"
+                        class="w-full h-full object-cover">
+                    <div
+                        class="hover-card w-[252px] h-[86px] rounded-[24px] border-[1px] border-[#D1D5DB] p-[16px] flex flex-col items-center gap-[10px] bg-[#FFFFFF80] backdrop-blur-[10px] sm:justify-center">
+                        <div class="content w-[166px] h-[54px] flex flex-col items-center gap-[6px] ">
+                            <h1 class="font-sora font-semibold text-[18px]  leading-[27px] text-center text-header">
+                                Dr.
+                                Rajesh Sharma</h1>
+                            <span
+                                class="font-sora text-para text-[14px] font-normal leading-[21px] text-center sm:text-[12px]">Chief
+                                Cardiologist</span>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="doc max-w-[284px] h-[383px] rounded-[24px] border-[1px] border-[#9CA3AF]  backdrop-blur-[26px] bg-[#FFFFFF80] cursor-pointer flex flex-col items-center justify-center transition-all duration-700 ease-in-out">
+                    <img src="assets/Compassionate Care/Doctor 02.png" alt="Doctor 2"
+                        class="w-full h-full object-cover">
+                    <div
+                        class="hover-card w-[252px] h-[86px] rounded-[24px] border-[1px] border-[#D1D5DB] p-[16px] flex flex-col items-center gap-[10px] bg-[#FFFFFF80] backdrop-blur-[10px]">
+                        <div class="content w-[166px] h-[54px] flex flex-col items-center gap-[6px]">
+                            <h1 class="font-sora font-semibold text-[18px] leading-[27px] text-center text-header">Dr.
+                                Meera Singh</h1>
+                            <span
+                                class="font-sora text-para text-[14px] font-normal leading-[21px] text-center w-[172px]">Cardiothoracic
+                                Surgeon</span>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="doc max-w-[284px] h-[383px] rounded-[24px] border-[1px] border-[#9CA3AF]  backdrop-blur-[26px] bg-[#FFFFFF80] cursor-pointer flex flex-col items-center justify-center">
+                    <img src="assets/Compassionate Care/Doctor 03.png" alt="Doctor 3"
+                        class="w-full h-full object-cover">
+                    <div
+                        class="hover-card w-[252px] h-[86px] rounded-[24px] border-[1px] border-[#D1D5DB] p-[16px] flex flex-col items-center gap-[10px] bg-[#FFFFFF80] backdrop-blur-[10px] ">
+                        <div class="content w-[166px] h-[54px] flex flex-col items-center gap-[6px]">
+                            <h1 class="font-sora font-semibold text-[18px] leading-[27px] text-center text-header">Dr.
+                                Anil Verma</h1>
+                            <span
+                                class="font-sora text-para text-[14px] font-normal leading-[21px] text-center">Pediatric
+                                Cardiologist</span>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="doc max-w-[284px] h-[383px] rounded-[24px] border-[1px] border-[#9CA3AF]  backdrop-blur-[26px] bg-[#FFFFFF80] cursor-pointer flex flex-col items-center justify-center">
+                    <img src="assets/Compassionate Care/Doctor 04.png" alt="Doctor 4"
+                        class="w-full h-full object-cover">
+                    <div
+                        class="hover-card w-[252px] h-[86px] rounded-[24px] border-[1px] border-[#D1D5DB] p-[16px] flex flex-col items-center gap-[10px] bg-[#FFFFFF80] backdrop-blur-[10px] ">
+                        <div class="content w-[166px] h-[54px] flex flex-col items-center gap-[6px]">
+                            <h1 class="font-sora font-semibold text-[18px] leading-[27px] text-center text-header">Dr.
+                                Karan Patel</h1>
+                            <span
+                                class="font-sora text-para text-[14px] font-normal leading-[21px] text-center">Electrophysiologist</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Comprehensive Care -->
+
+    <div class="bg-[#FFFFFF] w-full xl:h-[961px]">
+        <section
+            class=" container flex items-center flex-col gap-[46px] py-[40px] px-[10px] sm:py-[64px] sm:px-[80px] lg:py-[64px] lg:px-[80px] transition-all duration-700 ease-in-out">
+            <div
+                class="max-w-[1280px] flex flex-col md:flex-col lg:flex-col sm:flex-col xl:flex-row  xl:gap-[24px] gap-[16px] items-center ">
+                <h1
+                    class="font-sora font-semibold text-[30px] xl:text-[48px] lg:text-[40px] md:text-[35px] sm:text-[28px] xl:leading-[60px] lg:leading-[55px] md:leading-[50px] leading-[40px] text-header max-w-[636px] text-center md:text-center lg:text-center xl:text-left">
+                    Comprehensive
+                    Care, Tailored for You</h1>
+                <p
+                    class="max-w-[620px] font-inter font-normal text-[14px] xl:text-16px lg:text-[15px] md:text-[15px] sm:text-[15px]  leading-[28px] text-para text-center md:text-center lg:text-center xl:text-left">
+                    Explore
+                    our
+                    specialized health checkup packages designed to keep you and your loved ones healthy.</p>
+            </div>
+
+
+            <div
+                class="max-w-[1280px] xl:h-[667px] grid gap-y-[20px] xl:grid-cols-3 lg:grid-cols-2 sm:grid-cols-1 sm:gap-y-[40px] lg:gap-y-[40px] lg:gap-x-[40px] xl:gap-[48px] md:mt-14 justify-items-center xl:justify-items-stretch">
+
+                <!---- Card - 1 -->
+                <div class="card-1 max-w-[320px] xl:max-w-[395px] xl:h-[667px] lg:max-w-[395px] lg:h-[667px] md:max-w-[395px] md:h-[667px] sm:max-w-[395px] sm:h-[667px] rounded-[24px] border-[1px] border-[#F3F4F6] py-[40px] px-[3px] gap-[10px] backdrop-blur-[6.6px]"
+                    style="background: linear-gradient(180deg, #FFFFFF 24.27%, #FFF4E8 100.06%);
+">
+                    <div
+                        class="wrapper max-w-[389px] h-[587px] px-[5px] xl:px-[40px] lg:px-[40px] md:px-[40px] sm:px-[40px] flex items-center xl:justify-center">
+                        <div
+                            class="frame gap-[25px] max-w-[309px] h-[587px] flex flex-col items-center sm:items-center">
+                            <div class="header-block max-w-[309px] flex flex-col gap-[16px]">
+                                <h1
+                                    class="font-sora font-semibold text-[20px] xl:text-[24px] lg:text-[24px] md:text-[22px] sm:text-[21px] leading-[30px] max-w-[309px]">
+                                    Executive
+                                    Health Check
+                                </h1>
+                                <p
+                                    class="font-poppins font-normal xl:text-[16px] lg:text-[16px] md:text-[15px] sm:text-[14px] text-[14px]  leading-[28px] text-para max-w-[309px]">
+                                    Complete
+                                    body analysis
+                                    for busy professionals.</p>
+                            </div>
+                            <div class="pricing-block max-w-[309px] h-[375px] flex flex-col gap-[17px] items-start">
+                                <div class="price-title w-[200px] h-[60px] flex gap-[10px]">
+                                    <h1
+                                        class="font-sora font-semibold text-[34px] xl:text-[48px] lg:text-[43px] md:text-[39px] sm:text-[36px] leading-[61px] text-header ">
+                                        ₹15,000</h1>
+                                </div>
+
+                                <div class="price-content max-w-full h-[298px] flex flex-col gap-[24px]">
+                                    <h3
+                                        class="font-dmsans font-bold text-[15px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] leading-[20px] text-header">
+                                        What’s
+                                        included</h3>
+                                    <div class="w-[308px] h-[254px] flex flex-col  gap-[16px] ">
+                                        <div class="item-1 flex items-center gap-[14px] ">
+                                            <div
+                                                class="check_mark w-[26px] h-[26px] rounded-full bg-[#CD0001] flex items-center justify-center">
+                                                <img src="assets/Check.svg" alt="Check Mark">
+                                            </div>
+                                            <h1
+                                                class="font-poppins text-para text-[15px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] font-medium leading-[29px]">
+                                                Complete Blood Count (CBC)</h1>
+                                        </div>
+                                        <div class="item-2 flex items-center gap-[14px]">
+                                            <div
+                                                class="check_mark w-[26px] h-[26px] rounded-full bg-[#CD0001] flex items-center justify-center">
+                                                <img src="assets/Check.svg" alt="Check Mark">
+                                            </div>
+                                            <h1
+                                                class="font-poppins text-para text-[15px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] font-medium leading-[29px]">
+                                                Liver Function Test (LFT)</h1>
+                                        </div>
+                                        <div class="item-3 flex items-center gap-[14px]">
+                                            <div
+                                                class="check_mark w-[26px] h-[26px] rounded-full bg-[#CD0001] flex items-center justify-center">
+                                                <img src="assets/Check.svg" alt="Check Mark">
+                                            </div>
+                                            <h1justify-center
+                                                class="font-poppins text-para text-[15px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] font-medium leading-[29px]">
+                                                Kidney Function Test (KFT)</h1justify-center>
+                                        </div>
+                                        <div class="item-4 flex items-center gap-[14px]">
+                                            <div
+                                                class="check_mark w-[26px] h-[26px] rounded-full bg-[#CD0001] flex items-center justify-center">
+                                                <img src="assets/Check.svg" alt="Check Mark">
+                                            </div>
+                                            <h1
+                                                class="font-poppins text-para text-[15px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] font-medium leading-[29px]">
+                                                ECG (Heart Screening)</h1>
+                                        </div>
+                                        <div class="item-5 flex items-center gap-[14px]">
+                                            <div
+                                                class="check_mark w-[26px] h-[26px] rounded-full bg-[#CD0001] flex items-center justify-center">
+                                                <img src="assets/Check.svg" alt="Check Mark">
+                                            </div>
+                                            <h1
+                                                class="font-poppins text-para text-[15px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] font-medium leading-[29px]">
+                                                Chest X-Ray</h1>
+                                        </div>
+                                        <div class="item-6 flex items-center gap-[14px]">
+                                            <div
+                                                class="check_mark w-[26px] h-[26px] rounded-full bg-[#CD0001] flex items-center justify-center">
+                                                <img src="assets/Check.svg" alt="Check Mark">
+                                            </div>
+                                            <h1
+                                                class="font-poppins text-para text-[15px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] font-medium leading-[29px]">
+                                                Diet Consultation</h1>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <button
+                                class="btn w-[265px] h-[54px] xl:w-[309px] xl:h-[60px] lg:w-[309px] lg:h-[60px] md:w-[309px] md:h-[60px] sm:w-[270x] sm:h-[56px] rounded-[10px] px-[22px] py-[20px] bg-[#CD0001] text-center font-poppins text-[#FFFFFF] font-semibold text-[16px] leading-[19px] hover:bg-[#cd0000ab] transition-all ease-in-out duration-500">
+                                CONSULT
+                                NOW
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!---- Card - 2 -->
+                <div class="card-1 max-w-[320px] xl:max-w-[395px] xl:h-[667px] lg:max-w-[395px] lg:h-[667px] md:max-w-[395px] md:h-[667px] sm:max-w-[395px] sm:h-[667px] rounded-[24px] border-[1px] border-[#F3F4F6] py-[40px] px-[3px] gap-[10px] backdrop-blur-[6.6px]"
+                    style="background: linear-gradient(180deg, #FFFFFF 24.27%, #FFF4E8 100.06%);
+">
+                    <div
+                        class="wrapper max-w-[389px] h-[587px] px-[5px] xl:px-[40px] lg:px-[40px] md:px-[40px] sm:px-[40px] flex items-center xl:justify-center">
+                        <div
+                            class="frame gap-[25px] max-w-[309px] h-[587px] items-center flex flex-col sm:items-center">
+                            <div class="header-block max-w-[309px] h-[102px] flex flex-col gap-[16px]">
+                                <h1
+                                    class="font-sora font-semibold text-[20px] xl:text-[24px] lg:text-[24px] md:text-[22px] sm:text-[21px] leading-[30px] max-w-[309px]">
+                                    Diabetes Screening
+                                </h1>
+                                <p
+                                    class="font-poppins font-normal xl:text-[16px] lg:text-[16px] md:text-[15px] sm:text-[14px] text-[14px]  leading-[28px] text-para max-w-[309px]">
+                                    Early detection and management of diabetes.</p>
+                            </div>
+                            <div class="pricing-block w-[309px] h-[375px] flex flex-col gap-[17px] items-start">
+                                <div class="price-title w-[200px] h-[60px] flex gap-[10px]">
+                                    <h1
+                                        class="font-sora font-semibold text-[34px] xl:text-[48px] lg:text-[43px] md:text-[39px] sm:text-[36px] leading-[61px] text-header ">
+                                        ₹5,000</h1>
+                                </div>
+
+                                <div class="price-content max-w-full h-[298px] flex flex-col gap-[24px]">
+                                    <h3
+                                        class="font-dmsans font-bold text-[15px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] leading-[20px] text-header">
+                                        What’s
+                                        included</h3>
+                                    <div class="w-[308px] h-[254px] flex flex-col  gap-[16px] ">
+                                        <div class="item-1 flex items-center gap-[14px] ">
+                                            <div
+                                                class="check_mark w-[26px] h-[26px] rounded-full bg-[#CD0001] flex items-center justify-center">
+                                                <img src="assets/Check.svg" alt="Check Mark">
+                                            </div>
+                                            <h1
+                                                class="font-poppins text-para text-[15px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] font-medium leading-[29px]">
+                                                Fasting Blood Sugar (FBS)</h1>
+                                        </div>
+                                        <div class="item-2 flex items-center gap-[14px]">
+                                            <div
+                                                class="check_mark w-[26px] h-[26px] rounded-full bg-[#CD0001] flex items-center justify-center">
+                                                <img src="assets/Check.svg" alt="Check Mark">
+                                            </div>
+                                            <h1
+                                                class="font-poppins text-para text-[15px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] font-medium leading-[29px]">
+                                                HbA1c Test (Sugar Levels)</h1>
+                                        </div>
+                                        <div class="item-3 flex items-center gap-[14px]">
+                                            <div
+                                                class="check_mark w-[26px] h-[26px] rounded-full bg-[#CD0001] flex items-center justify-center">
+                                                <img src="assets/Check.svg" alt="Check Mark">
+                                            </div>
+                                            <h1justify-center
+                                                class="font-poppins text-para text-[15px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] font-medium leading-[29px] w-[290px]">
+                                                Urine Routine & Microalbumin</h1justify-center>
+                                        </div>
+                                        <div class="item-4 flex items-center gap-[14px]">
+                                            <div
+                                                class="check_mark w-[26px] h-[26px] rounded-full bg-[#CD0001] flex items-center justify-center">
+                                                <img src="assets/Check.svg" alt="Check Mark">
+                                            </div>
+                                            <h1
+                                                class="font-poppins text-para text-[15px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] font-medium leading-[29px]">
+                                                Diabetic Retinopathy</h1>
+                                        </div>
+                                        <div class="item-5 flex items-center gap-[14px]">
+                                            <div
+                                                class="check_mark w-[26px] h-[26px] rounded-full bg-[#CD0001] flex items-center justify-center">
+                                                <img src="assets/Check.svg" alt="Check Mark">
+                                            </div>
+                                            <h1
+                                                class="font-poppins text-para text-[15px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] font-medium leading-[29px]">
+                                                Foot Examination</h1>
+                                        </div>
+                                        <div class="item-6 flex items-center gap-[14px]">
+                                            <div
+                                                class="check_mark w-[26px] h-[26px] rounded-full bg-[#CD0001] flex items-center justify-center">
+                                                <img src="assets/Check.svg" alt="Check Mark">
+                                            </div>
+                                            <h1
+                                                class="font-poppins text-para text-[15px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] font-medium leading-[29px]">
+                                                Endocrinologist Consultation</h1>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <button
+                                class="btn w-[265px] h-[54px] xl:w-[309px] xl:h-[60px] lg:w-[309px] lg:h-[60px] md:w-[309px] md:h-[60px] sm:w-[270x] sm:h-[56px] rounded-[10px] px-[22px] py-[20px] bg-[#CD0001] text-center font-poppins text-[#FFFFFF] font-semibold text-[16px] leading-[19px] hover:bg-[#cd0000ab] transition-all ease-in-out duration-500">
+                                CONSULT
+                                NOW
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!---- Card - 3 -->
+                <div class="card-1 max-w-[320px] xl:max-w-[395px] xl:h-[667px] lg:max-w-[395px] lg:h-[667px] md:max-w-[395px] md:h-[667px] sm:max-w-[395px] sm:h-[667px] rounded-[24px] border-[1px] border-[#F3F4F6] py-[40px] px-[3px] gap-[10px] backdrop-blur-[6.6px]"
+                    style="background: linear-gradient(180deg, #FFFFFF 24.27%, #FFF4E8 100.06%);
+">
+                    <div
+                        class="wrapper max-w-[389px] h-[587px] px-[5px] xl:px-[40px] lg:px-[40px] md:px-[40px] sm:px-[40px] flex items-center xl:justify-center">
+                        <div
+                            class="frame gap-[25px] max-w-[309px] h-[587px] flex flex-col items-center sm:items-center">
+                            <div class="header-block w-full flex flex-col gap-[16px]">
+                                <h1
+                                    class="font-sora font-semibold text-[20px] xl:text-[24px] lg:text-[24px] md:text-[22px] sm:text-[21px] leading-[30px] ">
+                                    Executive
+                                    Health Check
+                                </h1>
+                                <p
+                                    class="font-poppins font-normal xl:text-[16px] lg:text-[16px] md:text-[15px] sm:text-[14px] text-[14px]  leading-[28px] text-para xl:h-[56px] lg:h-[56px] md:h-[56px] sm:h-[56px]">
+                                    Focused heart health evaluation.
+                                </p>
+                            </div>
+                            <div class="pricing-block max-w-[309px] h-[375px] flex flex-col gap-[17px] items-start">
+                                <div class="price-title w-[200px] h-[60px] flex gap-[10px]">
+                                    <h1
+                                        class="font-sora font-semibold text-[34px] xl:text-[48px] lg:text-[43px] md:text-[39px] sm:text-[36px] leading-[61px] text-header ">
+                                        ₹8,000</h1>
+                                </div>
+
+                                <div class="price-content max-w-full h-[298px] flex flex-col gap-[24px]">
+                                    <h3
+                                        class="font-dmsans font-bold text-[15px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] leading-[20px] text-header">
+                                        What’s
+                                        included</h3>
+                                    <div class="w-[308px] h-[254px] flex flex-col  gap-[16px] ">
+                                        <div class="item-1 flex items-center gap-[14px] ">
+                                            <div
+                                                class="check_mark w-[26px] h-[26px] rounded-full bg-[#CD0001] flex items-center justify-center">
+                                                <img src="assets/Check.svg" alt="Check Mark">
+                                            </div>
+                                            <h1
+                                                class="font-poppins text-para text-[15px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] font-medium leading-[29px]">
+                                                ECG (Electrocardiogram)</h1>
+                                        </div>
+                                        <div class="item-2 flex items-center gap-[14px]">
+                                            <div
+                                                class="check_mark w-[26px] h-[26px] rounded-full bg-[#CD0001] flex items-center justify-center">
+                                                <img src="assets/Check.svg" alt="Check Mark">
+                                            </div>
+                                            <h1
+                                                class="font-poppins text-para text-[15px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] font-medium leading-[29px]">
+                                                2D Echo with Doppler</h1>
+                                        </div>
+                                        <div class="item-3 flex items-center gap-[14px]">
+                                            <div
+                                                class="check_mark w-[26px] h-[26px] rounded-full bg-[#CD0001] flex items-center justify-center">
+                                                <img src="assets/Check.svg" alt="Check Mark">
+                                            </div>
+                                            <h1justify-center
+                                                class="font-poppins text-para text-[15px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] font-medium leading-[29px]">
+                                                Lipid Profile (Cholesterol)</h1justify-center>
+                                        </div>
+                                        <div class="item-4 flex items-center gap-[14px]">
+                                            <div
+                                                class="check_mark w-[26px] h-[26px] rounded-full bg-[#CD0001] flex items-center justify-center">
+                                                <img src="assets/Check.svg" alt="Check Mark">
+                                            </div>
+                                            <h1
+                                                class="font-poppins text-para text-[15px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] font-medium leading-[29px]">
+                                                TMT (Stress Test)</h1>
+                                        </div>
+                                        <div class="item-5 flex items-center gap-[14px]">
+                                            <div
+                                                class="check_mark w-[26px] h-[26px] rounded-full bg-[#CD0001] flex items-center justify-center">
+                                                <img src="assets/Check.svg" alt="Check Mark">
+                                            </div>
+                                            <h1
+                                                class="font-poppins text-para text-[15px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] font-medium leading-[29px]">
+                                                Blood Pressure Monitoring</h1>
+                                        </div>
+                                        <div class="item-6 flex items-center gap-[14px]">
+                                            <div
+                                                class="check_mark w-[26px] h-[26px] rounded-full bg-[#CD0001] flex items-center justify-center">
+                                                <img src="assets/Check.svg" alt="Check Mark">
+                                            </div>
+                                            <h1
+                                                class="font-poppins text-para text-[15px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] font-medium leading-[29px]">
+                                                Cardiologist Consultation</h1>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <button
+                                class="btn w-[265px] h-[54px] xl:w-[309px] xl:h-[60px] lg:w-[309px] lg:h-[60px] md:w-[309px] md:h-[60px] sm:w-[270x] sm:h-[56px] rounded-[10px] px-[22px] py-[20px] bg-[#CD0001] text-center font-poppins text-[#FFFFFF] font-semibold text-[16px] leading-[19px] hover:bg-[#cd0000ab] transition-all ease-in-out duration-500">
+                                CONSULT
+                                NOW
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Stay Informed, Stay Healthy -->
+
+    <div class="bg-[#FFFFFF] w-full xl:h-[977px]">
+        <section
+            class="container flex flex-col items-center gap-[46px] pt-[64px] pb-[164px] px-[10px] md:px-[80px] lg:px-[80px] xl:px-[80px] transition-all duration-700 ease-in-out">
+            <div
+                class="header-block max-w-[1280px]  flex flex-col xl:flex-row gap-[32px] items-center justify-center transition-all duration-700 ease-in-out">
+                <h1
+                    class="font-sora font-semibold text-[35px] xl:text-[48px] lg:text-[44px] md:text-[43px] sm:text-[39px] xl:leading-[60px] text-header max-w-[636px] text-center xl:text-left">
+                    Stay
+                    Informed,
+                    Stay Healthy</h1>
+                <p
+                    class="max-w-[620px] font-inter font-normal xl:text-[16px] lg:text-[15px] md:text-[15px] sm:text-[14px] text-[14px] leading-[24px] xl:leading-[28px] text-para text-center xl:text-left">
+                    Explore
+                    our
+                    latest articles on wellness, heart health, and disease management. Stay up to date with expert
+                    advice, patient stories, and tips for maintaining a healthier lifestyle.</p>
+            </div>
+            <div
+                class="cards max-w-[1280px] xl:h-[477px] grid justify-center xl:grid-cols-3 lg:grid-cols-2 lg:justify-items-center transition-all duration-700 ease-in-out">
+
+                <!-- <!~~ Card -1 ~~> -->
+                <div
+                    class="card-1 max-w-[406px] max-h-[477px] rounded-[8px] bg-[#FFFFFFCC] flex flex-col items-center lg:items-start">
+                    <div class="card-header max-w-[358px] px-[24px] pt-[24px]">
+                        <img src="assets/stay-informed/card-header 03.jpg" alt="Card Header 1"
+                            class="w-[356px] rounded-[8px] object-cover">
+                    </div>
+                    <div class="card-body max-w-[406px] h-[209px] p-[24px]">
+                        <div class="content max-w-[358px] h-[161px] flex flex-col gap-[12px]">
+                            <div class="title_text flex flex-col gap-[10px] h-[108px]">
+                                <h2
+                                    class="text-header text-[17px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[18px] font-sora font-semibold leading-[25px]">
+                                    How to Detect Early Signs of Heart Disease</h2>
+
+                                <p
+                                    class="font-poppins text-[#6B7280] font-normal text-[13px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[14px] leading-[24px]">
+                                    Spotting symptoms early can save lives. Find out what to watch for.</p>
+                            </div>
+                            <div class="author max-w-[217px] h-[41px] flex gap-[12px]">
+                                <div class="avatar w-[32px] h-[32px] rounded-[100px]">
+                                    <img src="assets/stay-informed/Avatar.png" alt="Avatar" class="object-cover">
+                                </div>
+                                <div class="text flex flex-col max-w-[173px] h-[41px]">
+                                    <h3 class="font-sora text-header font-semibold text-[14px] leading-[23px] w-full">
+                                        Dr. Rajesh Patel</h3>
+                                    <span class="font-sora text-[#6B7280] font-normal text-[14px] leading-[18px]">
+                                        Nov 20, 2024</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <!~~ Card-2 ~~> -->
+                <div
+                    class="card-2 max-w-[406px] max-h-[477px] rounded-[8px] bg-[#FFFFFFCC] flex flex-col items-center lg:items-start">
+                    <div class="card-header max-w-[358px] px-[24px] pt-[24px]">
+                        <img src="assets/stay-informed/card-header 02.jpg" alt="Card Header 1"
+                            class="w-[356px] rounded-[8px] object-cover">
+                    </div>
+                    <div class="card-body max-w-[406px] h-[209px] p-[24px]">
+                        <div class="content max-w-[358px] h-[161px] flex flex-col gap-[12px]">
+                            <div class="title_text flex flex-col gap-[10px] h-[108px]">
+                                <h2
+                                    class="text-header text-[17px] md:text-[20px] sm:text-[18px] font-sora font-semibold leading-[25px]">
+                                    Heart-Friendly Foods You Must Include in Your Diet</h2>
+
+                                <p
+                                    class="font-poppins text-[#6B7280] font-normal text-[13px] md:text-[16px] sm:text-[14px] leading-[24px]">
+                                    Discover
+                                    10 superfoods that
+                                    promote a healthy heart.</p>
+                            </div>
+                            <div class="author max-w-[217px] h-[41px] flex gap-[12px]">
+                                <div class="avatar w-[32px] h-[32px] rounded-[100px]">
+                                    <img src="assets/stay-informed/Avatar.png" alt="Avatar" class="object-cover">
+                                </div>
+                                <div class="text flex flex-col max-w-[173px] h-[41px]">
+                                    <h3 class="font-sora text-header font-semibold text-[14px] leading-[23px] w-full">
+                                        Nutritionist Priya Verma</h3>
+                                    <span class="font-sora text-[#6B7280] font-normal text-[14px] leading-[18px]">
+                                        Nov
+                                        20, 2024</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <!~~ Card-3 ~~> -->
+                <div
+                    class="card-3 max-w-[406px] max-h-[477px] rounded-[8px] bg-[#FFFFFFCC] flex flex-col items-center lg:items-start">
+                    <div class="card-header max-w-[358px]  px-[24px] pt-[24px]">
+                        <img src="assets/stay-informed/card-header 01.jpg" alt="Card Header 1"
+                            class="w-[356px] rounded-[8px] object-cover">
+                    </div>
+                    <div class="card-body max-w-[406px] h-[209px] p-[24px]">
+                        <div class="content max-w-[358px] h-[161px] flex flex-col gap-[12px]">
+                            <div class="title_text flex flex-col gap-[10px] h-[108px]">
+                                <h2
+                                    class="text-header 17px md:text-[20px] sm:text-[18px] font-sora font-semibold leading-[25px]">
+                                    The Role of Exercise in Cardiac Health</h2>
+
+                                <p
+                                    class="font-poppins text-[#6B7280] font-normal text-[13px]  md:text-[16px] sm:text-[14px] leading-[24px]">
+                                    Learn how regular physical activity can strengthen your heart.</p>
+                            </div>
+                            <div class="author max-w-[217px] h-[41px] flex gap-[12px]">
+                                <div class="avatar w-[32px] h-[32px] rounded-[100px]">
+                                    <img src="assets/stay-informed/Avatar.png" alt="Avatar" class="object-cover">
+                                </div>
+                                <div class="text flex flex-col max-w-[173px] h-[41px]">
+                                    <h3 class="font-sora text-header font-semibold text-[14px] leading-[23px] w-full">
+                                        Dr. Anil Kumar</h3>
+                                    <span class="font-sora text-[#6B7280] font-normal text-[14px] leading-[18px]">
+                                        Nov 10, 2024</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button
+                class="btn w-[206px] h-[60px] rounded-[10px] px-[22px] py-[20px] bg-[#CD0001] text-center font-poppins text-[#FFFFFF] font-semibold text-[16px] leading-[19px] hover:bg-[#cd0000ab] transition-all ease-in-out duration-500">
+                EXPLORE OUR BLOGS
+            </button>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer
+        class="xl:h-[557px] w-full border-[#E5E7EB] border-[1px] rounded-tl-[10px] rounded-tr-[10px] backdrop-blur-[13.6px] transition-all duration-700 ease-in-out"
+        id="footer">
+        <main class="container w-full flex justify-center transition-all duration-700 ease-in-out">
+            <section class="max-w-[1280px] pb-[36px] transition-all duration-700 ease-in-out" id="footer-wrapper">
+                <div id="footer-logo"
+                    class="h-[134px] w-[134px] md:w-[184px] md:h-[184px] bg-[#FFFFFF66] border-[#D1D5DB] border-[1px] rounded-[50%] p-[20px] absolute left-1/2 top-[0.9px] transform -translate-x-1/2 -translate-y-1/2  ">
+                    <img src="assets/logo/logo.svg" alt="footer-logo-img"
+                        class="md:h-[144px] md:w-[144px] h-[90px] w-[90px]">
+                </div>
+                <div class="max-w-[1280px] grid grid-rows-mobileDevice grid-cols-mobileDevice xl:grid-cols-xl lg:grid-cols-lg  gap-[10px] lg:gap-[40px] sm:grid-cols-sm md:grid-rows-lg
+                    md:grid-cols-md sm:grid-rows-sm md:
+                    xl:grid-rows-1">
+                    <div class="max-w-[412px] flex gap-[40px] md:justify-between justify-around sm:col-end-3 sm:col-start-1
+                    sm:max-w-full lg:col-start-auto lg:col-end-auto">
+                        <div class="h-[261px] max-w-[186px] flex flex-col items-center sm:items-end gap-[16px] my-[101px]"
+                            id="col-1">
+                            <h3 class="leading-[21px] text-[14px] text-[#111928] font-sora font-semibold uppercase">
+                                Specialties</h3>
+                            <a class="link-text" href="#">Cardiology</a>
+                            <a class="link-text" href="#">Neurology</a>
+                            <a class="link-text" href="#">Oncology</a>
+                            <a class="link-text" href="#">Orthopedics</a>
+                            <a class="link-text" href="#">Pediatrics</a>
+                            <a class="link-text" href="#">Gastroenterology</a>
+                        </div>
+                        <div class="h-[261px] max-w-[186px] flex flex-col items-center sm:items-end gap-[16px] my-[101px]"
+                            id="col-2">
+                            <h3 class="leading-[21px] text-[14px] text-[#111928] font-sora font-semibold uppercase">
+                                COMPANY</h3>
+                            <a class="link-text" href="#">About
+                                Us</a>
+                            <a class="link-text" href="#">Specialties</a>
+                            <a class="link-text" href="#">Treatments</a>
+                            <a class="link-text" href="#">Contact
+                                Us</a>
+                            <a class="link-text" href="#">Blog</a>
+                            <a class="link-text" href="#">Careers</a>
+                        </div>
+                    </div>
+                    <div class="h-[463px] max-w-[1px] bg-[#E5E7EB] hidden lg:flex" id="border-linee"></div>
+                    <div class="max-w-[294px] flex flex-col items-center gap-[16px] relative justify-center place-items-center
+                    sm:col-end-5 sm:col-start-1
+                    sm:max-w-full md:col-start-auto md:col-end-auto lg:col-start-auto lg:col-end-auto sm:left-0 sm:bottom-0 md:left-[30px] md:bottom-0 lg:left-0 lg:bottom-0 left-[40px] bottom-[40px] xl:left-0 xl:bottom-0"
+                        id="col-3">
+                        <div class="h-[101px] max-w-[294px] gap-2 items-center flex flex-col">
+                            <h3 class="leading-[21px] text-[14px] text-[#111928] font-sora font-semibold uppercase">
+                                Contact</h3>
+                            <div class="w-full flex flex-col items-center">
+                                <span class="link-text">+91 265
+                                    2607777</span>
+                                <span class="link-text">+91 265
+                                    2324004</span>
+                                <span class="link-text">+91 265
+                                    2320404</span>
+                            </div>
+                        </div>
+                        <div class="h-[53px] max-w-[294px]  flex flex-col items-center gap-2">
+                            <h3 class="leading-[21px] text-[14px] text-[#111928] font-sora font-semibold uppercase">
+                                Email</h3>
+                            <a class="link-text" href="mailto:someone@example.com">info@bankersheart.com</a>
+                        </div>
+                        <div class="h-[77px] w-[294px] flex flex-col items-center  gap-2">
+                            <h3 class="leading-[21px] text-[14px] text-[#111928] font-sora font-semibold uppercase">
+                                COMPANY</h3>
+                            <span class="link-text">
+                                Near
+                                Tagore nagar, Old Padra Road, Vadodara-15, Gujarat, India 390015.</span>
+                        </div>
+                    </div>
+                    <div class="h-[463px] max-w-[1px] bg-[#E5E7EB] hidden lg:flex" id="border-linee"></div>
+                    <div class="xl:max-w-[412px] h-[240px] flex flex-col gap-[24px] xl:my-[101px] md:pb-[40px] xl:pb-0 md:col-span-3 place-items-center
+                    lg:col-end-5 lg:col-start-1
+                    lg:max-w-full xl:col-start-auto xl:col-end-auto sm:col-end-3 sm:col-start-1
+                    sm:max-w-full
+                     border-[#E5E7EB]" id="col-4">
+                        <div class="h-[61px] xl:max-w-[412px] flex flex-col gap-[16px] items-center xl:items-baseline">
+                            <h3 class="leading-[21px] text-[14px] text-[#111928] font-sora font-semibold uppercase">
+                                Follow Us</h3>
+                            <div class="xl:max-w-[412px] h-[24px] flex gap-[16px] justify-center xl:justify-start"
+                                id="social-media-links">
+                                <img src="assets/footer/Social 01.svg" alt="social-media-img" class="h-[24px] w-[24px]">
+                                <img src="assets/footer/Social 02.svg" alt="social-media-img" class="h-[24px] w-[24px]">
+                                <img src="assets/footer/Social 03.svg" alt="social-media-img" class="h-[24px] w-[24px]">
+                                <img src="assets/footer/Social 04.svg" alt="social-media-img" class="h-[24px] w-[24px]">
+                                <img src="assets/footer/Social 05.svg" alt="social-media-img" class="h-[24px] w-[24px]">
+                            </div>
+                        </div>
+                        <div class="h-[79px] xl:max-w-[412px] flex flex-col gap-[16px] ">
+                            <h3
+                                class="leading-[21px] text-[14px] text-[#111928] font-sora font-semibold uppercase text-center xl:text-start">
+                                Subscribe Newsletter</h3>
+                            <form
+                                class="xl:max-w-[400px] flex flex-col sm:flex-row items-center sm:items-start gap-[10px] sm:gap-0"
+                                id="subscribe-input-block">
+                                <div
+                                    class="h-[42px] w-[269px] px-[16px] py-[12px] rounded-[7px] sm:rounded-l-[8px] sm:rounded-none border-[1px] sm:border-t-[1px] sm:border-b-[1px] sm:border-l-[1px] border-[#D1D5DB]">
+                                    <label for="email" class="h-[18px] w-[237px] flex  gap-[10px] ">
+                                        <img src="assets/footer/mail.svg" alt="email-img" class="h-[16px] w-[16px]">
+                                        <input type="email" id="email" placeholder="Enter your email"
+                                            class="outline-none text-[14px] leading-[17.5px] font-normal font-sora text-[#4B5563] h-[18px] w-[211px]">
+                                    </label>
+                                </div>
+                                <button
+                                    class="h-[42px] w-[127px] rounded-[6px] sm:rounded-e-[8px] sm:rounded-none py-[10px] px-[20px] uppercase font-poppins font-semibold text-[16px] leading-[19.2px] text-[#FFFFFF] hover:transform hover:scale-[1.100] hover:bg-[#ac0000de] duration-300 transition-all ease-linear bg-button">
+                                    Subscribe
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="h-[56px] max-w-[1280px] pt-[32px] border-[#E5E7EB] border-t-[1px]">
+                    <h3
+                        class="leading-[24px] max-w-full text-[14px] sm:text-[16px] text-[#6B7280] text-center font-sora font-normal">
+                        ©
+                        2024 Webelight Solutions, All rights reserved.</h3>
+                </div>
+            </section>
+        </main>
+    </footer>
+</body>
+
+</html>
