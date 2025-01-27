@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  /* height: auto; */
+  margin: 0 auto;
+}
+
+.center-slider {
+  background: linear-gradient(283.4deg, #ffe7cb 1.36%, #fff9f2 98.8%);
+}
+.nav-text:hover {
+  color: rgb(153 27 27 / var(--tw-text-opacity, 1));
+  transition: all 0.5s ease-in-out;
+}
+.ellipse {
+  background: linear-gradient(
+    221.87deg,
+    rgba(255, 231, 203, 0.1) 4.21%,
+    #ffe7cb 85.88%
+  );
+}
+
+.doc:hover {
+  background-color: rgb(87, 4, 4);
+  transition: all 1s ease-in-out;
+}
+
+.doc {
+  position: relative;
+  overflow: hidden;
+}
+
+.hover-card {
+  position: absolute;
+  transform: translate(0%, 120%);
+  bottom: 60px;
+  opacity: 0;
+  transition: bottom 0.5s ease-in-out;
+}
+
+.doc:hover .hover-card {
+  bottom: 120px;
+  opacity: 1;
+}
+
+.link-text {
+  font-family: "Sora", sans-serif;
+  font-size: 16px;
+  color: rgb(75 85 99 / var(--tw-text-opacity, 1));
+  line-height: 24px;
+}
