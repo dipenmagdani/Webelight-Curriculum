@@ -122,11 +122,11 @@ const editTask = (editIcon, newSpan, newLi) => {
     const storedInputs = JSON.parse(localStorage.getItem("todoTask"));
 
     if (markedItem === "true") {
-      alert("Cannot Edit Checked Task!");
+      alert("You cannot edit the checked Task");
       return;
     }
     const oldData = newSpan.innerHTML;
-    const data = prompt("Enter New Task", oldData);
+    const data = prompt("Edit the current task:", oldData);
     if (data === null) {
       newSpan.textContent = oldData;
     } else {
