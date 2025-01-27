@@ -14,33 +14,40 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="main-content">
-            <div class="header">
-                <h1>Add a New Todo!</h1>
-                <div class="input">
-                    <input type="text" id="taskInput" placeholder="Add a Task">
-                    <button id="addTaskBtn" onclick="addTask()">Add Task</button>
+    <div class="main">
+        <div class="container">
+            <div class="main-content">
+                <div class="header">
+                    <h1>Add a New Todo!</h1>
+
+                    <div class="input">
+                        <input type="text" id="taskInput" placeholder="Add a new Task">
+                        <button id="addTaskBtn" onclick="addTask()">Add Task</button>
+                    </div>
+                    <div class="error-msg">
+                        <span>Error: Cannot Add Edited Task</span>
+
+                    </div>
                 </div>
-            </div>
-            <div class="todo-list">
-                <ul class="list">
-                    <!-- <li class="task" id="0">
-                        <div class="task-info">
-                            <i class="fa-regular fa-circle"></i>
-                            <div class="text">
-                                <span data-marked='false'>Task 1</span>
+                <div class="todo-list">
+                    <ul class="list">
+                        <!-- <li class="task" id="0">
+                            <div class="task-info">
+                                <i class="fa-regular fa-circle"></i>
+                                <div class="text">
+                                    <span data-marked='false'>Task 1</span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="manipulate">
-                            <i class="fa-solid fa-pen-to-square"></i>
-                            <i class="fa-solid fa-trash"></i>
-                        </div>
-                    </li> -->
-                    <li class="empty-list">
-                        <span>Your List is empty. Add a task now!</span>
-                    </li>
-                </ul>
+                            <div class="manipulate">
+                                <i class="fa-solid fa-pen-to-square"></i>
+                                <i class="fa-solid fa-trash"></i>
+                            </div>
+                        </li> -->
+                        <li class="empty-list">
+                            <span>Your List is empty. Add a task now!</span>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>

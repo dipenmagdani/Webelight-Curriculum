@@ -8,11 +8,11 @@ const addTask = () => {
   let itemID = Date.now();
 
   const storedInputs = JSON.parse(localStorage.getItem("todoTask")) || [];
-  // if (storedInputs.length > 0) {
-  //   emptyList.style.display = "none";
-  // } else {
-  //   emptyList.style.display = "flex";
-  // }
+  if (mainList.children.length > 0) {
+    emptyList.style.display = "none";
+  } else {
+    emptyList.style.display = "flex";
+  }
   if (input.value === "") return alert("Input Cannot Be Empty!");
   const newLi = document.createElement("li");
   newLi.id = `${itemID}`;
@@ -49,7 +49,7 @@ const addTask = () => {
 
   newLi.appendChild(newDiv);
 
-  mainList.appendChild(newLi);
+  mainList.prepend(newLi);
 
   todoDiv.appendChild(mainList);
 
@@ -60,7 +60,7 @@ const addTask = () => {
   };
   localStorage.setItem(
     "todoTask",
-    JSON.stringify([...storedInputs, todoItems])
+    JSON.stringify([todoItems, ...storedInputs])
   );
   input.value = "";
 
@@ -71,14 +71,19 @@ const addTask = () => {
 
 const deleteTask = (newLi, deleteIcon, mainList, emptyList) => {
   deleteIcon.addEventListener("click", () => {
-    mainList.removeChild(newLi);
-    const storedInputs = JSON.parse(localStorage.getItem("todoTask"));
-    const updatedInputs = storedInputs.filter(
-      (item) => item.id !== Number(newLi.id)
-    );
-    localStorage.setItem("todoTask", JSON.stringify(updatedInputs));
-    if (mainList.children.length === 0) {
-      emptyList.style.display = "block";
+    const answer = prompt('Type "yes" to delete the task');
+    if (answer === "yes") {
+      mainList.removeChild(newLi);
+      const storedInputs = JSON.parse(localStorage.getItem("todoTask"));
+      const updatedInputs = storedInputs.filter(
+        (item) => item.id !== Number(newLi.id)
+      );
+      localStorage.setItem("todoTask", JSON.stringify(updatedInputs));
+      if (mainList.children.length === 0) {
+        emptyList.style.display = "block";
+        return;
+      }
+    } else {
       return;
     }
   });
@@ -184,13 +189,16 @@ const loadTask = () => {
 
     newLi.appendChild(newDiv);
 
-    mainList.appendChild(newLi);
+    mainList.prepend(newLi);
 
     todoDiv.appendChild(mainList);
 
     // Reattach event listeners
     deleteTask(newLi, deleteIcon, mainList, emptyList);
-    checkItem(checkIcon, newSpan, newLi);
+    if (!task.checkedItem) {
+      checkItem(checkIcon, newSpan, newLi);
+      return;
+    }
     editTask(editIcon, newSpan, newLi);
   });
 };
