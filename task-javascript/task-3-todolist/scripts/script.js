@@ -126,3 +126,6 @@ const addTask = () => {
     }
   });
 };
+const loadTask = () => {
+  const storedInputs = JSON.parse(localStorage.getItem("todoTask"));
+};
