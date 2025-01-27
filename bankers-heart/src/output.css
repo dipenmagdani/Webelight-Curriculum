@@ -3349,6 +3349,10 @@ video {
     flex-direction: row;
   }
 
+  .xl\:place-items-start {
+    place-items: start;
+  }
+
   .xl\:items-start {
     align-items: flex-start;
   }

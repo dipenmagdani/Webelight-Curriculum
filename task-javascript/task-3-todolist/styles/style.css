@@ -5,17 +5,14 @@
   font-family: "Work Sans", sans-serif;
 }
 
+.main {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.89);
+}
 .container {
-  max-width: 1024px;
+  max-width: 1440px;
   margin: 0 auto;
   height: auto;
-  background: rgb(3, 34, 30);
-  background: linear-gradient(
-    90deg,
-    rgba(3, 34, 30, 1) 0%,
-    rgba(3, 37, 45, 1) 35%,
-    rgba(64, 88, 99, 1) 100%
-  );
   display: flex;
   justify-content: center;
 }
@@ -24,7 +21,6 @@
   align-items: center;
   height: 100vh;
   flex-direction: column;
-  max-width: 1300px;
   padding-top: 80px;
   gap: 40px;
 }
@@ -36,7 +32,7 @@
 }
 .header h1 {
   font-size: 72px;
-  color: rgb(229 231 235);
+  color: rgba(255, 255, 255, 0.884);
   font-weight: 500;
   text-align: center;
   max-width: 700px;
@@ -54,10 +50,10 @@
   border-top-left-radius: 16px;
   border-bottom-left-radius: 16px;
   padding: 13px;
-  border: 1px solid red;
 
   border: none;
 }
+
 .input input[type="text"]::placeholder {
   font-family: "Work Sans", sans-serif;
   font-size: 16px;
@@ -68,7 +64,7 @@
   color: black;
   padding: 11.3px;
   width: 100px;
-  border-top-right-radius: 0px;
+  border-top-right-radius: 16px;
   border-bottom-right-radius: 16px;
   border: none;
   font-size: 15px;
@@ -82,16 +78,17 @@
 .todo-list {
   height: 550px;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: start;
-  border: 1px solid rgb(63 63 70);
+  /* border: 1px solid rgb(63 63 70); */
   margin: 20px 0px;
   overflow-y: auto;
-  border-radius: 12px;
-  background-color: rgba(39, 39, 42, 0.37);
+  border-radius: 6px;
+  /* background-color: rgba(39, 39, 42, 0.37); */
   padding: 8px;
   width: 100%;
   overflow-y: auto;
+  backdrop-filter: blur(20px);
 }
 .todo-list .list {
   list-style: none;
@@ -109,6 +106,7 @@
   height: 56px;
   margin-top: 24px;
   background-color: rgba(0, 0, 0, 0.329);
+  backdrop-filter: blur(60px);
 }
 
 .empty-list span {
@@ -124,7 +122,6 @@
   justify-content: space-between;
   padding: 0px 20px;
   width: 100%;
-  max-height: 120px;
   font-size: 20px;
   color: rgb(245 245 244);
   background: rgba(0, 0, 0, 0.438);
@@ -143,7 +140,7 @@
 
 .task-info .text {
   max-width: 500px;
-  height: 100px;
+  max-height: 100px;
   overflow-y: auto;
   display: flex;
   align-items: center;
