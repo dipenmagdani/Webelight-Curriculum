@@ -1215,6 +1215,10 @@ video {
   flex-wrap: wrap;
 }
 
+.place-items-start {
+  place-items: start;
+}
+
 .place-items-center {
   place-items: center;
 }
@@ -3347,6 +3351,14 @@ video {
 
   .xl\:flex-row {
     flex-direction: row;
+  }
+
+  .xl\:place-items-start {
+    place-items: start;
+  }
+
+  .xl\:place-items-center {
+    place-items: center;
   }
 
   .xl\:items-start {
